@@ -1,0 +1,102 @@
+.about-content{
+  .line-1{
+    height:410px;
+    .left{
+      height:410px;
+      background: url(../img/photos/IMG_7952.jpg) no-repeat center;
+      background-size: cover;
+    }
+    .right{
+      height:410px;
+      background:#6a7789;
+      &:before{
+        content: '';
+        position: absolute;
+        left: -80px;
+        top: 0;
+        border: 65px solid transparent;
+        border-top: 346px solid #6a7789;
+        border-right: 15px solid #6a7789;
+      }
+      h3, p{
+        color:#ffffff;
+      }
+      h3{
+        margin-top: 150px;
+      }
+      @media only screen and(max-width: 767px){
+        h3{
+          margin-top: 115px;
+        }
+      }
+      .first{
+        margin-bottom: 0;
+      }
+      .second{
+        font-size:20px;
+      }
+    }
+  }
+  .line-2{
+    height:410px;
+    .left-2{
+      height:410px;
+      background:#f1f1f0;
+      position: relative;
+      &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -77px;
+        z-index: 99;
+        border: 64px solid transparent;
+        border-bottom: 346px solid #f1f1f0;
+        border-left: 13px solid #f1f1f0;
+      }
+      .wrap{
+        position: absolute;
+        width:315px;
+        right: 0;
+        position: absolute;
+        text-align: center;
+        h3{
+          margin-top: 41px;
+        }
+        p{
+          margin-top: 170px;
+        }
+        a{
+          color: $orangeColor;
+          text-decoration:underline;
+        }
+        .tea-logo{
+          content: '';
+          top: 90px;
+          position: absolute;
+          height: 112px;
+          left: 0;
+          /* display: block; */
+          right: 0;
+          margin: 0px auto;
+          width: 70px;
+          background: url(../img/icon/team-mail-about.png) no-repeat center;
+        }
+      }
+    }
+    @media only screen and(max-width: 767px){
+      .left-2:after{
+        display: none !important;
+      }
+      .wrap{
+        position: static !important;
+        width:auto !important;
+
+      }
+    }
+    .right-2{
+      height:410px;
+      background: url(../img/photos/line-2-bg.jpg) no-repeat center;
+      background-size: cover;
+    }
+  }
+}

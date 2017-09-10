@@ -1,0 +1,108 @@
+.about-top-block{
+  height:calc(100vh);
+  background: url(../img/photos/YAG_1926.JPG) no-repeat center;
+  background-size: cover;
+  position: relative;
+  &:before{
+    content: '';
+    width: 100%;
+    height: 150px;
+    top: 90px;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(to top,rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 1));
+  }
+  .title-block{
+    text-align: center;
+    position: relative;
+    p{
+      display: block;
+      margin:0px auto;
+      width:430px;
+      font-family: "Light";
+      font-size: 18px;
+      padding-top: 60px;
+      line-height: 28px;
+    }
+    .head{
+      width: 60px;
+      height: 35px;
+      margin:0px auto;
+      margin-top: 150px;
+      margin-bottom: 50px;
+      background: url(../img/about-header.png) no-repeat center;
+    }
+  }
+}
+@media only screen and(min-width: 1200px){
+  .about-top-block{
+    .title-block{
+      margin-top: 130px;
+      height: 630px;
+      background: url(../img/title-block-bg-about.png) no-repeat center;
+      background-size: 630px;
+    }
+  }
+}
+@media only screen and(max-width: 1199px) and (min-width: 992px){
+  .about-top-block {
+    .title-block {
+      height: 630px;
+      margin-top: 130px;
+      background: url(../img/title-block-bg-about.png) no-repeat center;
+      background-size: 630px;
+    }
+  }
+}
+@media only screen and(max-width: 991px) and (min-width: 768px){
+  .about-top-block{
+    .title-block{
+      height: 630px;
+      margin-top: 200px;
+      background: url(../img/title-block-bg-about.png) no-repeat center;
+      background-size: 630px;
+    }
+    .head{
+      left:0;
+      right:0;
+      position: absolute;
+      width: 60px;
+      height: 35px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+    }
+    p {
+      padding-top: 295px !important;
+    }
+  }
+}
+@media only screen and(max-width: 767px){
+    .about-title-block-mobile{
+      background-size: contain;
+      position:relative;
+      height:calc(100vh - 90px);
+      margin-top: 90px;
+      background: url(../img/title-block-bg-sm-top-about.png) no-repeat 0% 0%,url(../img/title-block-bg-sm-bt-about.png) no-repeat 0% 100%;
+      .head{
+        position: absolute;
+        left:0;
+        right:0;
+        margin: 0px auto;
+        top: 26%;
+        width: 60px;
+        height: 35px;
+        background: url(../img/about-header.png) no-repeat center;
+      }
+      p {
+        text-align: center;
+        font-size: 17px;
+        font-family: "Light";
+        padding-top: 65%;
+        width:100% !important;
+      }
+    }
+  .about-top-block:before{
+    top:0;
+  }
+
+}
