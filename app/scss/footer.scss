@@ -1,0 +1,137 @@
+.footer{
+  padding-top: 55px;
+  padding-bottom: 60px;
+  background-color: #6a7789;
+  .phone-number{
+    font-family: 'Medium';
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 2px solid #42bda5 ;
+  }
+  .phone-number:hover{
+    font-family: 'Medium';
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .adress{
+    margin-top: 45px;
+    h4{
+      margin-bottom:30px;
+      font-size:25px;
+      color: #c5cad2;
+    }
+    li{
+      font-family: 'Light';
+      font-size:16px;
+      color: #c5cad2;
+    }
+
+  }
+  .map-road{
+    margin-top:30px;
+    height:25px;
+    a{
+      margin-left: 20px;
+      color: #42bda5;
+      border-bottom:1px solid #42bda5;
+      position: relative;
+      &:after{
+        position: absolute;
+        top: -9px;
+        left: -30px;
+        content: '';
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url(../img/svg/cubi_icon_51.svg) no-repeat 0 0;
+      }
+    }
+  }
+  .social-link{
+    margin-top: -12px;
+    margin-bottom: 20px;
+    li{
+      display: inline-block;
+      margin: 0 6px;
+      &:first-child{
+        margin-left:0px;
+      }
+      .fb{
+        background: url(../img/svg/social_networks/fb.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/fb_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .vk{
+        background: url(../img/svg/social_networks/vk.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/vk_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .inst{
+        background: url(../img/svg/social_networks/insta.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/insta_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .g-plus{
+        background: url(../img/svg/social_networks/google.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/google_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      a{
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+        display: block;
+        height:45px;
+        width:45px;
+      }
+    }
+  }
+  @media only screen and(max-width: 767px){
+    .social-link{
+      margin-top:45px;
+    }
+  }
+  table{
+    margin-top: 31px;
+    td{
+      padding-top:19px;
+      padding-right:20px;
+    }
+    a{
+      text-decoration: none;
+      color: #c5cad2;
+    }
+  }
+  .our-project{
+    padding-top: 37px;
+    height: 43px;
+    a{
+      text-decoration: none;
+      margin-left:50px;
+      color: #c5cad2;
+      border-bottom: 1px solid #c5cad2;
+      position:relative;
+      &:after{
+        top: -3px;
+        content: '';
+        display: block;
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        background: url(../img/icon/tea-mail-icon.png) no-repeat 0 0;
+      }
+    }
+  }
+}

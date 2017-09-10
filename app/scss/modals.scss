@@ -1,0 +1,366 @@
+.enter{
+  border:1px solid #6e6e6f;
+  left:0;
+  right:0;
+  margin:0px auto;
+  display: block;
+  margin-top: 80px;
+  padding-top: 5px;
+  background: #fff;
+  z-index:999;
+  width:400px;
+  position: fixed;
+  background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px , url(../img/icon/form-flower-big.gif) no-repeat 310px 385px  #fff;
+  .close-enter-button{
+    right: 10px;
+    top: 10px;
+    display: block;
+    position: absolute;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    background: url(../img/icon/closeformbutton.gif) no-repeat center;
+  }
+  h3{
+    text-align: center;
+    font-family: "Light";
+    font-size:23px;
+    margin-bottom: 48px;
+    margin-top: 36px;
+  }
+  input[type="text"], input[type="password"] {
+    padding:8px;
+    width:280px;
+    margin: 0 auto;
+    display: block;
+    font-family: "LightIt";
+    border:1px solid #6e6e6f;
+    background: #fff !important;
+  }
+  input[type="text"]{
+    margin-bottom: 15px;
+  }
+  input[type="password"]{
+    margin-bottom: 42px;
+  }
+  input[type="submit"]{
+    display: block;
+    border:none;
+    background: #59718d;
+    font-family: 'Regular';
+    font-size:16px;
+    color: #fff;
+    padding:10px 40px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    margin: 10px auto 8px;
+  }
+  p{
+    padding-bottom: 6px;
+    font-family: "LightIt";
+    text-align: center;
+    a{
+      color: #fcb23a;
+      text-decoration: underline;
+    }
+  }
+  h4{
+    font-size:19px;
+    text-align: center;
+  }
+  hr{
+    margin-bottom: 18px;
+  }
+  ul{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    li{
+      display: inline-block;
+      margin: 0 6px;
+      .fb{
+        background: url(../img/svg/social_networks/fb.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/fb_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .vk{
+        background: url(../img/svg/social_networks/vk.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/vk_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .inst{
+        background: url(../img/svg/social_networks/insta.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/insta_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      .g-plus{
+        background: url(../img/svg/social_networks/google.svg) no-repeat center,#707d90;
+        background-size: 75%;
+        &:hover{
+          background: url(../img/svg/social_networks/google_hover.svg) no-repeat center,#42bda5;
+          background-size: 75%;
+        }
+      }
+      a{
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+        display: block;
+        height:45px;
+        width:45px;
+      }
+    }
+  }
+
+}
+.registration{
+  border:1px solid #6e6e6f;
+  left:0;
+  right:0;
+  margin:0px auto;
+  display: block;
+  margin-top: 80px;
+  padding-top: 5px;
+  background: #fff;
+  z-index:999;
+  width:400px;
+  position: fixed;
+  background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px , url(../img/icon/form-flower-big.gif) no-repeat 310px 385px #fff;
+  .close-registration-button{
+    right: 10px;
+    top: 10px;
+    display: block;
+    position: absolute;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    background: url(../img/icon/closeformbutton.gif) no-repeat center;
+  }
+  h3{
+    text-align: center;
+    font-family: "Light";
+    font-size:23px;
+    margin-top: 36px;
+    margin-bottom: 40px;
+  }
+  input[type="text"], input[type="password"] {
+    padding:8px;
+    width:280px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+    font-family: "LightIt";
+    border:1px solid #6e6e6f;
+    background: #fff !important;
+  }
+  input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    margin-top:50px;
+    padding:10px;
+    border:none;
+    background: #59718d;
+    font-family: 'Regular';
+    font-size: 16px;
+    color: #fff;
+    padding:10px 35px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    margin-bottom: 8px;
+  }
+  p{
+    padding-bottom: 6px;
+    font-family: "LightIt";
+    text-align: center;
+    padding-bottom: 84px;
+    a{
+      color: #fcb23a;
+      text-decoration: underline;
+    }
+  }
+}
+@media only screen and(min-width: 1200px){
+  .enter{
+    top: 8%;
+  }
+  .registration{
+    top:8%;
+  }
+  .search-form{
+    position: fixed;
+    top: 90px;
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    right: 0;
+    left: 0;
+    z-index: 2000;
+    input{
+      padding:0 10px;
+      width: 100%;
+      height: 80px;
+      border: none;
+      background: rgba(242, 242, 242,0.9);
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+      text-align: center;
+    }
+    input::-moz-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+    input::-webkit-input-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+  }
+}
+@media only screen and(max-width: 1199px) and (min-width: 992px){
+  .enter{
+    top: 8%;
+  }
+  .registration{
+    top:8%;
+  }
+  .search-form{
+    position: fixed;
+    top: 90px;
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    right: 0;
+    left: 0;
+    z-index: 2000;
+    input{
+      padding:0 10px;
+      width: 100%;
+      height: 80px;
+      border: none;
+      background: rgba(242, 242, 242,0.9);
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+      text-align: center;
+    }
+    input::-moz-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+    input::-webkit-input-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+  }
+}
+@media only screen and(max-width: 991px) and (min-width: 768px){
+  .enter{
+    top: 10%;
+  }
+  .registration{
+    top:10%;
+  }
+  .search-form{
+    position: fixed;
+    top: 90px;
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    right: 0;
+    left: 0;
+    z-index: 2000;
+    input{
+      padding:0 10px;
+      width: 100%;
+      height: 80px;
+      border: none;
+      background: rgba(242, 242, 242,0.9);
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+      text-align: center;
+    }
+    input::-moz-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+    input::-webkit-input-placeholder{
+      font-size: 30pt;
+      color: #000;
+      font-family: "Light";
+    }
+  }
+}
+@media only screen and(max-width: 767px){
+  .enter{
+    background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px,url(../img/icon/form-flower-big.gif) no-repeat 247px 287px #fff;
+    border:none;
+    margin-top: 80px;
+    top:10px;
+    width:100%;
+    h3{
+      margin-bottom: 14px;
+    }
+  }
+  .registration{
+    background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px,url(../img/icon/form-flower-big.gif) no-repeat 247px 287px #fff;
+    border:none;
+    margin-top: 80px;
+    top:10px;
+    width:100%;
+    h3{
+      margin-bottom: 14px;
+    }
+    p{
+      padding-bottom: 76px !important;
+    }
+  }
+  .search-form{
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    right: 0;
+    left: 0;
+    z-index: 2000;
+    input{
+      padding:0 10px;
+      width: 100%;
+      height: 55px;
+      border: none;
+      background: rgba(242, 242, 242,0.9);
+      font-size: 25pt;
+      color: #000;
+      font-family: "Light";
+      text-align: center;
+    }
+    input::-moz-placeholder{
+      font-size: 25pt;
+      color: #000;
+      font-family: "Light";
+    }
+    input::-webkit-input-placeholder{
+      font-size: 25pt;
+      color: #000;
+      font-family: "Light";
+    }
+  }
+}
+

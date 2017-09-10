@@ -1,0 +1,211 @@
+//popular carousel
+.popular{
+  margin-top: 50px;
+  height:530px;
+  #popular-carousel{
+    height:100%;
+    .col-md-4{
+      .pupular-catalog-button{
+        width:120px;
+        text-decoration: none;
+        display: block;
+        margin:30px auto 0;
+        background: #f1a61f;
+        border: none;
+        color: #fff;
+        padding: 12px 17px;
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        border-radius:20px;
+        font-family:"Regular";
+        text-align: center;
+      }
+    }
+    .col-md-8{
+      //padding-left: 0;
+    }
+    .carousel-control{
+      position: absolute;
+      display: block;
+      height:40px;
+      width:40px;
+      background-image: none;
+    }
+    .left{
+      background: url(../img/icon/slider-arrow-left.gif) no-repeat center;
+    }
+    .right{
+      background: url(../img/icon/slider-arrow-right.gif) no-repeat center;
+    }
+    .carousel-inner {
+      height: 100%;
+      .item{
+        height: 100%;
+        .slide{
+          height: 100%;
+          background-size: cover !important;
+        }
+      }
+    }
+  }
+  @media only screen and(min-width: 1200px){
+    #popular-carousel{
+      .col-md-4{
+        height:530px;
+        border-top:2px dashed #ededed;
+        border-left:2px dashed #ededed;
+        background: url(../img/popular-header.gif) no-repeat 50% 70px;
+        .caption{
+          div{
+            text-align: center;
+            padding-top: 140px;
+            width: 200px;
+            margin: 0px auto;
+            img{
+              width:100px;
+            }
+            h5{
+              font-size:30px;
+              font-family: "Light";
+            }
+            p:first-child{
+              font-size:16px;
+            }
+            p:last-child{
+              font-size:20px;
+              font-family: "Medium";
+            }
+          }
+        }
+      }
+      .col-md-8{
+        height:530px;
+        //padding-left: 0;
+      }
+      .carousel-control{
+        top:50%;
+        bottom:50%;
+      }
+    }
+  }
+  @media only screen and(max-width: 1199px) and (min-width: 992px){
+    #popular-carousel{
+      .col-md-4{
+        height:530px;
+        border-top:2px dashed #ededed;
+        border-left:2px dashed #ededed;
+        background: url(../img/popular-header.gif) no-repeat 50% 70px;
+        .caption{
+          div{
+            text-align: center;
+            padding-top: 180px;
+            width: 200px;
+            margin: 0px auto;
+            img{
+              width:80px;
+            }
+            h5{
+              font-size:20px;
+            }
+          }
+        }
+      }
+      .col-md-8{
+        height:530px;
+        //padding-left: 0;
+      }
+      .carousel-control{
+        top:50%;
+        bottom:50%;
+      }
+    }
+  }
+  @media only screen and(max-width: 991px) and (min-width: 768px){
+    #popular-carousel{
+      .left{
+        left:15px;
+      }
+      .right{
+        right:15px;
+      }
+      .col-md-4{
+        height:530px;
+        border-top:2px dashed #ededed;
+        background: url(../img/popular-header.gif) no-repeat 50% 70px;
+        .caption{
+          div{
+            text-align: center;
+            padding-top: 165px;
+            width: 200px;
+            margin: 0px auto;
+            img{
+              width:100px;
+            }
+            h5{
+              font-size: 25px;
+              font-family: "Light";
+            }
+            p:first-child{
+              font-family:"Regular";
+            }
+            p:last-child{
+              font-size: 20px;
+              font-family: "Medium";
+            }
+          }
+        }
+      }
+      .col-md-8{
+        height:530px;
+        //padding-left: 0;
+      }
+      .carousel-control{
+        top:44%;
+        bottom:50%;
+      }
+    }
+  }
+  @media only screen and(max-width: 767px){
+    #popular-carousel{
+      .left{
+        left:10%;
+      }
+      .right{
+        right: 10%;
+      }
+      .col-md-4{
+        background: url(../img/popular-header.gif) no-repeat 50% 30px;
+        .caption{
+          div{
+            text-align: center;
+            padding-top: 90px;
+            width: 200px;
+            margin: 0px auto;
+            img{
+              width:50px;
+            }
+            h5{
+              font-size: 20px;
+              font-family: "Light";
+            }
+            p:first-child{
+              font-family:"Regular";
+            }
+            p:last-child{
+              font-size: 20px;
+              font-family: "Medium";
+            }
+          }
+        }
+      }
+      .col-md-8{
+        height:200px;
+        //padding-left: 15px;
+      }
+      .carousel-control{
+        top:50%;
+        bottom:50%;
+      }
+    }
+  }
+}

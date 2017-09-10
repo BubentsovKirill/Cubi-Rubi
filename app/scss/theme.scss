@@ -1,0 +1,105 @@
+*{
+  list-style: none;
+  margin:0;
+  padding:0;
+  color:#6e6e6f;
+  outline: none;
+}
+@font-face {
+  font-family: 'Thin';
+  src: url('../fonts/CoreSansE-15Thin.otf');
+}
+@font-face {
+  font-family: 'Thinlt';
+  src: url('../fonts/CoreSansE-15ThinIt.otf');
+}
+@font-face {
+  font-family: 'ExtraLight';
+  src: url('../fonts/CoreSansE-25ExtraLight.otf');
+}
+@font-face {
+  font-family: 'ExtraLightIt';
+  src: url('../fonts/CoreSansE-25ExtraLightIt.otf');
+}
+@font-face {
+  font-family: 'Light';
+  src: url('../fonts/CoreSansE-35Light.otf');
+}
+@font-face {
+  font-family: 'LightIt';
+  src: url('../fonts/CoreSansE-35LightIt.otf');
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('../fonts/CoreSansE-45Regular.otf');
+}
+@font-face {
+  font-family: 'RegularIt';
+  src: url('../fonts/CoreSansE-45RegularIt.otf');
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('../fonts/CoreSansE-55Medium.otf');
+}
+@font-face {
+  font-family: 'MediumIt';
+  src: url('../fonts/CoreSansE-55MediumIt.otf');
+}@font-face {
+  font-family: 'Bold';
+  src: url('../fonts/CoreSansE-65Bold.otf');
+}
+@font-face {
+  font-family: 'BoldIt';
+  src: url('../fonts/CoreSansE-65BoldIt.otf');
+}@font-face {
+  font-family: 'ExtraBold';
+  src: url('../fonts/CoreSansE-75ExtraBold.otf');
+}
+@font-face {
+  font-family: 'ExtraBoldIt';
+  src: url('../fonts/CoreSansE-75ExtraBoldIt.otf');
+}
+@font-face {
+  font-family: 'Heavy';
+  src: url('../fonts/CoreSansE-85Heavy.otf');
+}
+@font-face {
+  font-family: 'HeavyIt';
+  src: url('../fonts/CoreSansE-85HeavyIt.otf');
+}
+@font-face {
+  font-family: 'Black';
+  src: url('../fonts/CoreSansE-95Black.otf');
+}
+@font-face {
+  font-family: 'BlackIt';
+  src: url('../fonts/CoreSansE-95BlackIt.otf');
+}
+
+body{
+  background: #fff;
+  font-family: "Light";
+}
+header{
+  background: #fff;
+}
+a{
+  text-decoration: none;
+}
+h3{
+  font-size:30px;
+  font-family: "Light";
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+  url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+  url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+  url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+  url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
