@@ -1,0 +1,43 @@
+.discount-five-percent{
+  background: #8bc7e4;
+  .left{
+    img{
+      margin-top:85px;
+      width:340px;
+    }
+  }
+  .right{
+    background: url(../img/discount-5-percent-steps.png) no-repeat center;
+    h3{
+      font-family: "Medium";
+      color: #ffffff;
+      margin-top:165px;
+      font-size:20px;
+    }
+    p{
+      color: #ffffff;
+      font-size:15px;
+      margin-bottom:165px;
+    }
+  }
+}
+
+@media only screen and(max-width: 991px){
+  .discount-five-percent{
+    text-align: center;
+    h3{
+      margin-top:65px !important;
+    }
+    p{
+      margin-bottom:65px !important;
+    }
+  }
+}
+
+@media only screen and(max-width: 767px){
+  .discount-five-percent{
+    img{
+      width:250px !important;
+    }
+  }
+}

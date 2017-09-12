@@ -14,28 +14,25 @@
 <div class="fixed-top">
     <div class="container header">
         <ul class="menu-top hidden-sm hidden-xs">
-            <li><a href="#" class="catalogButton">магазин</a></li>
+            <li><a href="#" class="catalogButton">
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                магазин
+            </a></li>
             <li><a href="#">о cubirubi</a></li>
             <li><a href="#">отзывы</a></li>
             <li><a href="#">скидки</a></li>
-            <li><a href="#"><img src="img/logo.gif" alt=""></a></li>
+            <li class="logo-desktop"><a href="#"><img src="img/cubi_logo.svg" alt=""></a></li>
             <li><a href="#">новости</a></li>
-            <li><a href="#">скидки</a></li>
+            <li><a href="#">контакты</a></li>
         </ul>
-        <a href="tel:+375290000000" class="phone-top hidden-xs hidden-sm">+ 375 29 000 00 00</a>
-        <form action="" class="search-top hidden-sm hidden-xs">
-            <input type="text" placeholder="Искать по сайту...">
-        </form>
-        <div class="search-button hidden-md hidden-lg search-icon-passive">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </div>
-        <form action="" class="mobile-search-block hidden-lg hidden-md hidden" id="search-block-mobile">
-            <input type="text" id="search-input-mobile" placeholder="Искать по сайту...">
-            <i class="fa fa-search" aria-hidden="true"></i>
-        </form>
-        <a href="tel:++375290000000" class="phone-mobile hidden-lg hidden-md">
-            <i class="fa fa-phone" aria-hidden="true"></i>
+        <a href="tel:+375290000000" class="phone-top">
+            <span class="hidden-sm hidden-xs">
+                + 375 29 000 00 00
+            </span>
         </a>
+        <!--<a href="tel:++375290000000" class="phone-mobile hidden-lg hidden-md">-->
+            <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
+        <!--</a>-->
         <div class="catalog hidden">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-4">
@@ -101,13 +98,18 @@
             </div>
             <div class="triangle"></div>
         </div>
+        <span class="search-button"></span>
         <a href="#" class="enter-account hidden-sm hidden-xs">Войти</a>
         <a href="#" class="card-top">
             <span class="total-goods">5</span>
             <span class="total-price hidden-xs">65 р.</span>
         </a>
         <a href="#" class="logo-mobile hidden-lg hidden-md">
-            <img src="img/logo.gif" alt="">
+            <img src="img/cubi_logo.svg" alt="">
+        </a>
+        <a href="#" class="catalogButton-mobile hidden-lg hidden-md hidden-xs">
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+            магазин
         </a>
         <span class="mobile-menu-button hidden-lg hidden-md">
             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -126,7 +128,6 @@
         </div>
     </div>
 </div>
-
 <!--slider-->
 <div id="сarousel" class="carousel fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -136,21 +137,21 @@
     </ol>
     <div class="carousel-inner">
         <div class="title-block">
-            <img src="img/logo-title2.png" alt="">
+            <img src="img/cubi_logo.svg" alt="">
             <h2>подарки с настроением</h2>
         </div>
         <div class="col-md-6">
         </div>
         <div class="item active">
-            <div class="slide" style="background: url(img/index.jpg) no-repeat center"></div>
+            <div class="slide" style="background: url(img/photos/index.jpg) no-repeat center"></div>
         </div>
 
         <div class="item">
-            <div class="slide" style="background: url(http://relaxic.net/wp-content/uploads/2012/07/nature_00001.jpg) no-repeat center"></div>
+            <div class="slide" style="background: url(img/photos/index.jpg) no-repeat center"></div>
         </div>
 
         <div class="item">
-            <div class="slide" style="background: url(http://bygaga.com.ua/uploads/posts/2014-11/1416230014_skazochnaya-krasota-prirody-1.jpg) no-repeat center"></div>
+            <div class="slide" style="background: url(img/photos/index.jpg) no-repeat center"></div>
         </div>
     </div>
     <a class="left back" href="#сarousel" data-slide="prev">
@@ -161,28 +162,32 @@
     </a>
 </div>
 <!--mobile catalog-->
-<div class="container hidden-lg hidden-md catalog-mobile">
+<div class="container hidden-lg hidden-md hidden-sm catalog-mobile">
     <div class="row catalog-mobile">
-        <div class="col-sm-4 col-xs-12"><a href="#">Блокноты, Eжедневники</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Пеналы</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Очки</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Все для упаковки</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Чехлы для очков</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Часы</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Коробочки для мелочей</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Папки</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Чехлы для телефонов</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Календари</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Маркеры, Ручки, Кисти</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Планшеты для рисования</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Постеры</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Книги, Комиксы</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Хенд Мэйд</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Косметички</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Предметы декора</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Наклейки</a></div>
-        <div class="col-sm-4 col-xs-12"><a href="#">Особое от CubiRubi</a></div>
+        <div class="col-xs-12"><a href="#">Блокноты, Eжедневники</a></div>
+        <div class="col-xs-12"><a href="#">Пеналы</a></div>
+        <div class="col-xs-12"><a href="#">Очки</a></div>
+        <div class="col-xs-12"><a href="#">Все для упаковки</a></div>
+        <div class="col-xs-12"><a href="#">Чехлы для очков</a></div>
+        <div class="col-xs-12"><a href="#">Часы</a></div>
+        <div class="col-xs-12"><a href="#">Коробочки для мелочей</a></div>
+        <div class="col-xs-12"><a href="#">Папки</a></div>
+        <div class="col-xs-12"><a href="#">Чехлы для телефонов</a></div>
+        <div class="col-xs-12"><a href="#">Календари</a></div>
+        <div class="col-xs-12"><a href="#">Маркеры, Ручки, Кисти</a></div>
+        <div class="col-xs-12"><a href="#">Планшеты для рисования</a></div>
+        <div class="col-xs-12"><a href="#">Постеры</a></div>
+        <div class="col-xs-12"><a href="#">Книги, Комиксы</a></div>
+        <div class="col-xs-12"><a href="#">Хенд Мэйд</a></div>
+        <div class="col-xs-12"><a href="#">Косметички</a></div>
+        <div class="col-xs-12"><a href="#">Предметы декора</a></div>
+        <div class="col-xs-12"><a href="#">Наклейки</a></div>
+        <div class="col-xs-12"><a href="#">Особое от CubiRubi</a></div>
     </div>
+</div>
+<div class="decorate-mob-catalog hidden-lg hidden-md hidden-sm">
+    <hr>
+    <div></div>
 </div>
 <!--new on site-->
 <!--large screen-->
@@ -193,10 +198,9 @@
             <div class="item">
                 <img src="img/new-item.jpg" alt="">
                 <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
+                    <span class="item-title">Солнечные очки Nike</span>
                     <a href="#" class="item-comments">
                         10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
                     </a>
                     <div class="rating">
                         <span class="pick"></span>
@@ -212,169 +216,159 @@
                         <p>Осталось 10 штук.</p>
                         <div class="hidden-block">
                             <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="img/new-item.jpg" alt="">
-                <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
-                    <a href="#" class="item-comments">
-                        10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="rating">
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="not-pick"></span>
-                    </div>
-                    <form action="#">
-                        <span class="amount">Кол-во</span>
-                        <input type="number" value="1">
-                        <span class="total-cost">5.50 р</span>
-                        <p>Осталось 10 штук.</p>
-                        <div class="hidden-block">
-                            <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="img/new-item.jpg" alt="">
-                <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
-                    <a href="#" class="item-comments">
-                        10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="rating">
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="not-pick"></span>
-                    </div>
-                    <form action="#">
-                        <span class="amount">Кол-во</span>
-                        <input type="number" value="1">
-                        <span class="total-cost">5.50 р</span>
-                        <p>Осталось 10 штук.</p>
-                        <div class="hidden-block">
-                            <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="img/new-item.jpg" alt="">
-                <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
-                    <a href="#" class="item-comments">
-                        10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="rating">
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="not-pick"></span>
-                    </div>
-                    <form action="#">
-                        <span class="amount">Кол-во</span>
-                        <input type="number" value="1">
-                        <span class="total-cost">5.50 р</span>
-                        <p>Осталось 10 штук.</p>
-                        <div class="hidden-block">
-                            <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="img/new-item.jpg" alt="">
-                <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
-                    <a href="#" class="item-comments">
-                        10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="rating">
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="not-pick"></span>
-                    </div>
-                    <form action="#">
-                        <span class="amount">Кол-во</span>
-                        <input type="number" value="1">
-                        <span class="total-cost">5.50 р</span>
-                        <p>Осталось 10 штук.</p>
-                        <div class="hidden-block">
-                            <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="img/new-item.jpg" alt="">
-                <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
-                    <a href="#" class="item-comments">
-                        10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </a>
-                    <div class="rating">
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="pick"></span>
-                        <span class="not-pick"></span>
-                    </div>
-                    <form action="#">
-                        <span class="amount">Кол-во</span>
-                        <input type="number" value="1">
-                        <span class="total-cost">5.50 р</span>
-                        <p>Осталось 10 штук.</p>
-                        <div class="hidden-block">
-                            <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            <a class="like-not-pick like"></a>
                             </span>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="item">
+                <img src="img/new-item.jpg" alt="">
+                <div class="item-panel">
+                    <span class="item-title">Солнечные очки Nike</span>
+                    <a href="#" class="item-comments">
+                        10
+                    </a>
+                    <div class="rating">
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="not-pick"></span>
+                    </div>
+                    <form action="#">
+                        <span class="amount">Кол-во</span>
+                        <input type="number" value="1">
+                        <span class="total-cost">5.50 р</span>
+                        <p>Осталось 10 штук.</p>
+                        <div class="hidden-block">
+                            <input type="submit" value="В корзину">
+                            <a class="like-not-pick like"></a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="item">
+                <img src="img/new-item.jpg" alt="">
+                <div class="item-panel">
+                    <span class="item-title">Солнечные очки Nike</span>
+                    <a href="#" class="item-comments">
+                        10
+                    </a>
+                    <div class="rating">
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="not-pick"></span>
+                    </div>
+                    <form action="#">
+                        <span class="amount">Кол-во</span>
+                        <input type="number" value="1">
+                        <span class="total-cost">5.50 р</span>
+                        <p>Осталось 10 штук.</p>
+                        <div class="hidden-block">
+                            <input type="submit" value="В корзину">
+                            <a class="like-not-pick like"></a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="item">
+                <img src="img/new-item.jpg" alt="">
+                <div class="item-panel">
+                    <span class="item-title">Солнечные очки Nike</span>
+                    <a href="#" class="item-comments">
+                        10
+                    </a>
+                    <div class="rating">
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="not-pick"></span>
+                    </div>
+                    <form action="#">
+                        <span class="amount">Кол-во</span>
+                        <input type="number" value="1">
+                        <span class="total-cost">5.50 р</span>
+                        <p>Осталось 10 штук.</p>
+                        <div class="hidden-block">
+                            <input type="submit" value="В корзину">
+                            <a class="like-not-pick like"></a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="item">
+                <img src="img/new-item.jpg" alt="">
+                <div class="item-panel">
+                    <span class="item-title">Солнечные очки Nike</span>
+                    <a href="#" class="item-comments">
+                        10
+                    </a>
+                    <div class="rating">
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="not-pick"></span>
+                    </div>
+                    <form action="#">
+                        <span class="amount">Кол-во</span>
+                        <input type="number" value="1">
+                        <span class="total-cost">5.50 р</span>
+                        <p>Осталось 10 штук.</p>
+                        <div class="hidden-block">
+                            <input type="submit" value="В корзину">
+                            <a class="like-not-pick like"></a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="item">
+                <img src="img/new-item.jpg" alt="">
+                <div class="item-panel">
+                    <span class="item-title">Солнечные очки Nike</span>
+                    <a href="#" class="item-comments">
+                        10
+                    </a>
+                    <div class="rating">
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="pick"></span>
+                        <span class="not-pick"></span>
+                    </div>
+                    <form action="#">
+                        <span class="amount">Кол-во</span>
+                        <input type="number" value="1">
+                        <span class="total-cost">5.50 р</span>
+                        <p>Осталось 10 штук.</p>
+                        <div class="hidden-block">
+                            <input type="submit" value="В корзину">
+                            <a class="like-not-pick like"></a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="row text-center">
         <a href="#" class="load-more">Загрузить еще</a>
@@ -390,10 +384,9 @@
             <div class="item">
                 <img src="img/new-item.jpg" alt="">
                 <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
+                    <span class="item-title">Солнечные очки Nike</span>
                     <a href="#" class="item-comments">
                         10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
                     </a>
                     <div class="rating">
                         <span class="pick"></span>
@@ -409,9 +402,8 @@
                         <p>Осталось 10 штук.</p>
                         <div class="hidden-block">
                             <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
+                            <a class="like-not-pick like"></a>
+                            </span>
                         </div>
                     </form>
                 </div>
@@ -421,10 +413,9 @@
             <div class="item">
                 <img src="img/new-item.jpg" alt="">
                 <div class="item-panel">
-                    <span class="item-title">Тетрадь в линейку</span>
+                    <span class="item-title">Солнечные очки Nike</span>
                     <a href="#" class="item-comments">
                         10
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
                     </a>
                     <div class="rating">
                         <span class="pick"></span>
@@ -440,9 +431,8 @@
                         <p>Осталось 10 штук.</p>
                         <div class="hidden-block">
                             <input type="submit" value="В корзину">
-                            <span class="add-to-favorite">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
+                            <a class="like-not-pick like"></a>
+                            </span>
                         </div>
                     </form>
                 </div>
@@ -455,7 +445,6 @@
         <a href="#" class="catalog-button">В каталог</a>
     </div>
 </div>
-
 <!--popular-->
 <div class="container popular">
         <div id="popular-carousel" class="carousel fade" data-ride="carousel">
@@ -499,12 +488,11 @@
                             <p>от 18.50 р</p>
                         </div>
                     </div>
-                    <a href="#" class="pupular-catalog-button">В каталок</a>
+                    <a href="#" class="pupular-catalog-button">В каталог</a>
                 </div>
             </div>
         </div>
 </div>
-
 <!--news-->
 <div class="container-fluid home-page-news">
     <div class="container">
@@ -512,6 +500,10 @@
             <div class="row">
                 <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12" style="z-index: 999">
                     <div class="slide-place">
+                        <div class="degree">
+                            <div class="blue"></div>
+                            <div class="white"></div>
+                        </div>
                         <div class="carousel-inner">
                             <div class="item active" data-number="1">
                                 <div class="slide" style="background: url(img/news-block-homepage.gif) no-repeat center"></div>
@@ -526,21 +518,15 @@
                         <div class="news-info">
                             <div class="info-item visible" data-number="1">
                                 <span class="date">31 декабря 2016</span>
-                                <span class="amount-comments">10
-                                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                                </span>
+                                <span class="amount-comments">10</span>
                             </div>
                             <div class="info-item hidden" data-number="2">
                                 <span class="date">30 декабря 2016</span>
-                                <span class="amount-comments">10
-                                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                                </span>
+                                <span class="amount-comments">10</span>
                             </div>
                             <div class="info-item hidden" data-number="3">
                                 <span class="date">29 декабря 2016</span>
-                                <span class="amount-comments">10
-                                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                                </span>
+                                <span class="amount-comments">10</span>
                             </div>
                         </div>
                     </div>
@@ -548,22 +534,22 @@
                 <div class="col-md-4 col-sm-4 col-md-offset-1 col-sm-offset-1 col-xs-12" style="z-index: 999">
                     <div class="news-text">
                         <h4>Наши новости</h4>
-                        <ol class="carousel-indicators" style="z-index: 1">
+                        <ol class="carousel-indicators news-indicators" style="z-index: 1">
                             <li data-target="#news-carousel" data-slide-to="0" class="active"></li>
                             <li data-target="#news-carousel" data-slide-to="1"></li>
                             <li data-target="#news-carousel" data-slide-to="2"></li>
                         </ol>
                         <div class="news-description">
                             <div class="new-description visible" data-number="1">
-                                <h3>C Новым Годом !!! 1</h3>
+                                <h3>C Новым Годом !!! </h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, eaque eveniet iure minima quae quam totam voluptatem. Adipisci, sed, totam?</p>
                             </div>
                             <div class="new-description hidden" data-number="2">
-                                <h3>C Новым Годом !!! 2</h3>
+                                <h3>C Рождеством !!!</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam beatae doloribus ducimus eius eum, ipsa laudantium non odit officiis perferendis quas sed, tenetur.</p>
                             </div>
                             <div class="new-description hidden" data-number="3">
-                                <h3>C Новым Годом !!! 3</h3>
+                                <h3>C Днем Железнодорожника !!!</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim esse fuga ipsum quis reiciendis repellat reprehenderit sunt! Accusantium cumque dolorem ducimus maiores molestias natus nobis porro provident? Inventore, laudantium praesentium?</p>
                             </div>
                         </div>
@@ -574,7 +560,6 @@
         </div>
     </div>
 </div>
-
 <!--about-->
 <div class="container about-homepage">
     <div class="row">
@@ -588,7 +573,6 @@
         </div>
     </div>
 </div>
-
 <!--discount-->
 <div class="container discount-homepage">
     <div class="row">
@@ -602,7 +586,6 @@
         </div>
     </div>
 </div>
-
 <!--comments-->
 <div class="container comments-homepage">
     <div class="row">
@@ -687,15 +670,15 @@
                 <a class="right carousel-control" href="#comments-carousel" data-slide="next"></a>
             </div>
             <div class="row buttons">
-                <div class="col-md-6 col-md-offset-4">
-                    <a href="#" class="do-comment">Оставить коментарий</a>
+                <div class="col-sm-12 col-md-offset-4">
+
+                    <a href="#" class="do-comment">Оставить отзыв</a>
                     <a href="#" class="more-comment">Еще коментарии</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <!--subscribe-->
 <div class="container-fluid subscribe-homepage">
     <div class="container">
@@ -711,7 +694,6 @@
         </div>
     </div>
 </div>
-
 <!--welcome-->
 <div class="container-fluid welcome-homepage" style="background: url(img/welcom-homepage.png);background-size: cover">
     <div class="container">
@@ -745,37 +727,29 @@
             <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
                 <ul class="social-link">
                     <li>
-                        <a href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
+                        <a href="#" class="fb"></a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-vk" aria-hidden="true"></i>
-                        </a>
+                        <a href="#" class="vk"></a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
+                        <a href="#" class="inst"></a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        </a>
+                        <a href="#" class="g-plus"></a>
                     </li>
                 </ul>
                 <table>
                     <tr>
-                        <td><a href="#">Магазин</a></td>
+                        <td><a href="#">O CubiRubi</a></td>
                         <td><a href="#">Офферта</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#">O CubiRubi</a></td>
+                        <td><a href="#">Отзывы</a></td>
                         <td><a href="#">Доставка и оплата</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#">Отзывы</a></td>
+                        <td><a href="#">Скидки</a></td>
                         <td><a href="#">Сотрудничество</a></td>
                     </tr>
                     <tr>
@@ -803,47 +777,46 @@
         </div>
     </div>
 </div>
-<form  class="enter hidden">
-    <span class="close-enter-button"></span>
-    <h3>Войти</h3>
-    <input type="text" placeholder="Логин или Email">
-    <br>
-    <input type="password" placeholder="Пароль" />
-    <input type="submit" value="Войти">
-    <p>Нет аккаунда? <a href="#" class="registation-open">Зарегистрироваться</a></p>
-    <hr>
-    <h4>Войти с помощью</h4>
-    <ul>
-        <li>
-            <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fa fa-vk" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fa fa-google-plus" aria-hidden="true"></i>
-            </a>
-        </li>
-    </ul>
+<form action="#" class="enter hidden">
+    <div>
+        <span class="close-enter-button"></span>
+        <h3>Войти</h3>
+        <input type="text" placeholder="Логин или Email">
+        <br>
+        <input type="password" placeholder="Пароль" />
+        <input type="submit" value="Войти">
+        <p>Нет аккаунда? <a href="#" class="registation-open">Зарегистрироваться</a></p>
+        <hr>
+        <h4>Войти с помощью</h4>
+        <ul>
+            <li>
+                <a href="#" class="fb"></a>
+            </li>
+            <li>
+                <a href="#" class="vk"></a>
+            </li>
+            <li>
+                <a href="#" class="inst"></a>
+            </li>
+            <li>
+                <a href="#" class="g-plus"></a>
+            </li>
+        </ul>
+    </div>
 </form>
-<form  class="registration hidden">
+<form action="#" class="registration hidden">
     <span class="close-registration-button"></span>
     <h3>Регистрация</h3>
     <input type="text" placeholder="Имя">
+    <br>
     <input type="password" placeholder="Пароль">
+    <br>
     <input type="password" placeholder="Подтвердите пароль">
     <input type="submit" value="Зарегистрироваться">
     <p>Уже есть аккаунт ? <a href="#" class="enter-open">Войти</a></p>
+</form>
+<form action="#" class="search-form hidden">
+    <input type="text" placeholder="Поиск">
 </form>
 <script src="js/js.min.js"></script>
 <script>
@@ -851,6 +824,7 @@
         Layout.init();
         PopularSlider.init();
         NewsSlider.init();
+        Like.init();
     })
 </script>
 </body>

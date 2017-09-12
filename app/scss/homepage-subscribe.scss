@@ -1,5 +1,5 @@
 .subscribe-homepage{
-  margin-top: 100px;
+  margin-top: 50px;
   background: url(../img/subscribe-bg-homepage.png) repeat;
   position: relative;
   p{
@@ -14,19 +14,6 @@
     }
   }
 }
-.subscribe-homepage:before{
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  margin: 0px auto;
-  top: -35px;
-  left: 0;
-  transform: rotate(1deg);
-  height: 70px;
-  z-index: 999;
-  background: url(../img/_discount-line.png) repeat-x 0px 69px,white;
-}
 
 
 @media only screen and(min-width: 1200px){
@@ -37,7 +24,7 @@
     form{
       position: relative;
       margin-top: 50px;
-      margin-bottom: 170px;
+      margin-bottom: 150px;
       input[type="email"]{
         border:none !important;
         padding:10px;
@@ -70,7 +57,7 @@
     form{
       position: relative;
       margin-top: 50px;
-      margin-bottom: 170px;
+      margin-bottom: 150px;
       input[type="email"]{
         border:none !important;
         padding:10px;
@@ -102,7 +89,7 @@
     form{
       position: relative;
       margin-top: 50px;
-      margin-bottom:180px;
+      margin-bottom: 150px;
       input[type="email"]{
         border:none !important;
         padding:10px;
@@ -128,13 +115,14 @@
 }
 @media only screen and(max-width: 767px) {
   .subscribe-homepage{
+    margin-top: 50px;
     h3{
       margin-top:140px;
     }
     form{
       position: relative;
       margin-top: 50px;
-      margin-bottom: 170px;
+      margin-bottom: 150px;
       input[type="email"]{
         border:none !important;
         padding:10px;
@@ -145,7 +133,7 @@
         border-radius:20px;
         padding-right: 135px;
       }
-      input[type=submit]{
+      input[type="submit"]{
         position: absolute;
         display: block;
         background: #59718d;

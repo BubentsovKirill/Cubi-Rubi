@@ -97,11 +97,11 @@ gulp.task('default',['browser-sync','html','scss','js'], function(){
 
 gulp.task('build',['clear','img','scss','js'],function(){
 	gulp.src(['tmp/*.html'])
-	.pipe(gulp.dest('dist'))
+	.pipe(gulp.dest('dist'));
 	gulp.src(['tmp/css/*.css'])
-	.pipe(gulp.dest('dist/css'))
+	.pipe(gulp.dest('dist/css'));
 	gulp.src('tmp/fonts/**.*')
-	.pipe(gulp.dest('dist/fonts'))
+	.pipe(gulp.dest('dist/fonts'));
 	gulp.src('tmp/js/*.js')
 	.pipe(gulp.dest('dist/js'))
 });

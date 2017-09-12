@@ -1,0 +1,42 @@
+.discount-fifteen-percent{
+  background: url(../img/discount-15-percent-circles.png) no-repeat 60% center, #ffd654;
+  .left{
+    img{
+      margin-top:85px;
+      width:340px;
+    }
+  }
+  .right{
+    h3{
+      font-family: "Medium";
+      color: #666666;
+      margin-top:165px;
+      font-size:20px;
+    }
+    p{
+      color: #666666;
+      font-size:15px;
+      margin-bottom:165px;
+    }
+  }
+}
+
+@media only screen and(max-width: 991px){
+  .discount-fifteen-percent{
+    text-align: center;
+    h3{
+      margin-top:65px !important;
+    }
+    p{
+      margin-bottom:65px !important;
+    }
+  }
+}
+
+@media only screen and(max-width: 767px){
+  .discount-fifteen-percent{
+    img{
+      width:250px !important;
+    }
+  }
+}

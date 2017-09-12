@@ -1,0 +1,21 @@
+.load-more-block{
+  width:200px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  a{
+    position: relative;
+    text-decoration: underline;
+    color: #6e6e6f;
+    span{
+      background: url(../img/svg/cubi_icon_48.svg) no-repeat center;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: -32px;
+      top: -6px;
+    }
+  }
+}

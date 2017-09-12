@@ -1,0 +1,88 @@
+.news-items{
+  .news-item{
+    img{
+      width:375px !important;
+      height:385px !important;
+      overflow: hidden;
+    }
+    .news-item-content{
+      position: relative;
+      padding-top: 25px;
+      padding-left:0;
+      .item-comments{
+        position: absolute;
+        right: 40px;
+        &:after{
+          position: absolute;
+          content: '';
+          top: -7px;
+          width: 25px;
+          height: 25px;
+          background: url(../img/svg/cubi_icon_27.svg) no-repeat -7px 0px;
+          background-size: 152%;
+        }
+      }
+      .item-date{
+        margin-bottom: 25px;
+      }
+      .item-header{
+        text-transform: uppercase;
+        font-size:20px;
+        margin-bottom: 25px;
+      }
+      .item-text{
+        min-height:180px;
+        font-size: 15px;
+      }
+      .item-button{
+        position: absolute;
+        text-decoration: none;
+        border: 2px solid #f0a720;
+        color: inherit;
+        padding: 12px 28px;
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        border-radius:20px;
+      }
+    }
+  }
+}
+.item-line-bottom{
+  height:1px;
+  width:100%;
+  border:1px dashed #c8c8c8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media only screen and(max-width: 991px) and (min-width: 768px){
+  .news-items{
+    .news-item{
+      img{
+        display: block;
+        margin:0px auto;
+        width:100% !important;
+        max-width:375px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .news-items{
+    .news-item{
+      img{
+        display: block;
+        margin:0px auto;
+        width:100% !important;
+        max-width:375px !important;
+      }
+      .news-item-content{
+        padding-left: 15px !important;
+      }
+    }
+  }
+  .item-line-bottom{
+    margin-top:80px;
+  }
+}

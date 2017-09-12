@@ -1,0 +1,30 @@
+.discount-top-line{
+  margin-top: 90px;
+  text-align: center;
+  background: url(../img/discount-top-line-bg.png) no-repeat center 100%;
+  h1{
+    text-transform: uppercase;
+    font-family:"Light";
+    font-size:22px;
+    margin-top:120px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size:15px;
+    margin-bottom: 116px;
+  }
+}
+
+@media only screen and(max-width: 991px) and (min-width: 768px){
+  .discount-top-line{
+    background-size: 100%;
+  }
+}
+@media only screen and(max-width: 767px){
+  .discount-top-line{
+    background-size: 100%;
+    h1{
+      margin-top: 60px !important;
+    }
+  }
+}

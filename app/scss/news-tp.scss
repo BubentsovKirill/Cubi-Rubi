@@ -1,0 +1,24 @@
+.news-top-line{
+  text-align: center;
+  margin-top: 90px;
+  background: url(../img/flowers-news-page.png) no-repeat center;
+  background-size: 100%;
+  h1{
+    font-family:"Light";
+    font-size:22px;
+    margin-top: 65px;
+    margin-bottom:20px;
+  }
+  input{
+    margin-bottom: 65px;
+    width: 265px;
+    height:45px;
+    padding:0px 10px 0 55px;
+    border:none;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border-radius:25px;
+    font-family: "LightIt";
+    background: url(../img/svg/cubi_icon_49_news_search.svg) no-repeat 10px center, #f8f8f8 ;
+  }
+}

@@ -1,0 +1,45 @@
+.discount-ten-percent{
+  background: url(../img/discount-10-percent-plates.png) no-repeat center, #42bda5;
+  .left{
+    h3{
+      font-family: "Medium";
+      color: #ffffff;
+      margin-top:165px;
+      font-size:20px;
+    }
+    p{
+      color: #ffffff;
+      font-size:15px;
+      margin-bottom:165px;
+    }
+  }
+  .right{
+    img{
+      margin-top:85px;
+      width:340px;
+    }
+  }
+}
+@media only screen and(max-width: 991px){
+  .discount-ten-percent{
+    text-align: center;
+    h3{
+      margin-top:85px !important;
+    }
+    img{
+      margin-top: 0px!important;
+      margin-bottom:70px !important;
+    }
+    p{
+      margin-bottom: 70px !important;
+    }
+  }
+}
+
+@media only screen and(max-width: 767px){
+  .discount-ten-percent{
+    img{
+      width:250px !important;
+    }
+  }
+}
