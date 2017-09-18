@@ -1,0 +1,621 @@
+.step-3-block{
+  form{
+    background: #ffffff;
+    padding: 65px 140px 0 140px;
+    .head-top{
+      margin-bottom: 40px;
+      font-size: 20px;
+      position: relative;
+      &:before{
+        position: absolute;
+        width: 47px;
+        height: 47px;
+        content: '';
+        left: -75px;
+        top: -14px;
+        background: url(../img/svg/cubi_icon_36_white.svg) no-repeat 6px 10px,#6a7789;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        background-size: 80%;
+      }
+    }
+    .head-bottom{
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 20px;
+      position: relative;
+      &:before{
+        position: absolute;
+        width: 47px;
+        height: 47px;
+        content: '';
+        left: -75px;
+        top: -14px;
+        background: url(../img/svg/cubi_icon_27_white.svg) no-repeat -2px 6px,#6a7789;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        background-size: 100%;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 50px;
+        position: relative;
+        input[type="radio"]{
+          display: none;
+        }
+        label{
+          font-size: 18px;
+          cursor: pointer;
+          position: relative;
+        }
+        label:after{
+          content: '';
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          top: -3px;
+          left: -40px;
+          display: block;
+          border: 1px solid #cdcccb;
+        }
+        input[type="radio"]:checked + label:after{
+          background: url(../img/svg/cubi_icon_29.svg) no-repeat -11px -1px;
+          background-size: 150%;
+        }
+        p{
+          font-size: 16px;
+          padding-right: 150px;
+        }
+        .cards{
+          .visa{
+            display: inline-block;
+            width:65px;
+            height:20px;
+            background: url(../img/svg/cards/Visa_Inc._logo.svg) no-repeat 0px 0px;
+            background-size: 100%;
+          }
+          .maestro{
+            display: inline-block;
+            width:65px;
+            height:38px;
+            vertical-align: middle;
+            margin-top: -14px;
+            background: url(../img/svg/cards/Maestro_logo.svg) no-repeat 0px 0px;
+            background-size: 100% !important;
+          }
+          .master{
+            display: inline-block;
+            width:65px;
+            height:38px;
+            vertical-align: middle;
+            margin-top: -14px;
+            background: url(../img/svg/cards/MasterCard_Logo.svg) no-repeat 0px 0px;
+            background-size: 100% !important;
+          }
+        }
+      }
+    }
+    .line{
+      height:1px;
+      border-bottom:1px solid #e7e7e7;
+    }
+    .comment-basket{
+      width:100%;
+      font-family:"LightIt";
+      padding:0px 5px;
+      height:40px;
+      font-size:16px;
+      border: 1px solid #e7e6e5;
+    }
+    .line-bottom{
+      height:5px;
+      margin-top:60px;
+      margin-bottom: 30px;
+      background: url(../img/basket-dotted-line.png) no-repeat center;
+    }
+    .total-coast{
+      text-align: center;
+      span:first-child{
+        color: #efa621;
+        font-size: 25px;
+      }
+      span:last-child{
+        font-size: 25px;
+      }
+    }
+    .button-block{
+      text-align: center;
+      margin-top: 20px;
+      input{
+        margin-bottom:20px;
+        border:2px solid #eda520;
+        background: #ffffff;
+        height:40px;
+        width:175px;
+        text-align: center;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        border-radius:25px;
+      }
+      input:first-child{
+        margin-right: 10px;
+        border:2px solid #e3e3e3;
+      }
+      input:last-child{
+        margin-left: 10px;
+      }
+    }
+  }
+  @media only screen and(max-width: 1199px) and (min-width: 992px){
+    form{
+      background: #ffffff;
+      padding: 65px 80px 0 120px !important;
+      .head-top{
+        margin-bottom: 40px;
+        font-size: 20px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          left: -75px;
+          top: -14px;
+          background: url(../img/svg/cubi_icon_36_white.svg) no-repeat 6px 10px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 80%;
+        }
+      }
+      .head-bottom{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          left: -75px;
+          top: -14px;
+          background: url(../img/svg/cubi_icon_27_white.svg) no-repeat -2px 6px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 100%;
+        }
+      }
+      ul{
+        li{
+          margin-bottom: 50px;
+          position: relative;
+          input[type="radio"]{
+            display: none;
+          }
+          label{
+            font-size: 18px;
+            cursor: pointer;
+            position: relative;
+          }
+          label:after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: -3px;
+            left: -40px;
+            display: block;
+            border: 1px solid #cdcccb;
+          }
+          input[type="radio"]:checked + label:after{
+            background: url(../img/svg/cubi_icon_29.svg) no-repeat -11px -1px;
+            background-size: 150%;
+          }
+          p{
+            font-size: 16px;
+            padding-right: 150px;
+          }
+          .cards{
+            .visa{
+              display: inline-block;
+              width:65px;
+              height:20px;
+              background: url(../img/svg/cards/Visa_Inc._logo.svg) no-repeat 0px 0px;
+              background-size: 100%;
+            }
+            .maestro{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/Maestro_logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+            .master{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/MasterCard_Logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+          }
+        }
+      }
+      .line{
+        height:1px;
+        border-bottom:1px solid #e7e7e7;
+      }
+      .comment-basket{
+        width:100%;
+        font-family:"LightIt";
+        padding:0px 5px;
+        height:40px;
+        font-size:16px;
+        border: 1px solid #e7e6e5;
+      }
+      .line-bottom{
+        height:5px;
+        margin-top:60px;
+        margin-bottom: 30px;
+        background: url(../img/basket-dotted-line.png) no-repeat center;
+      }
+      .total-coast{
+        text-align: center;
+        span:first-child{
+          color: #efa621;
+          font-size: 25px;
+        }
+        span:last-child{
+          font-size: 25px;
+        }
+      }
+      .button-block{
+        text-align: center;
+        margin-top: 20px;
+        input{
+          margin-bottom:20px;
+          border:2px solid #eda520;
+          background: #ffffff;
+          height:40px;
+          width:175px;
+          text-align: center;
+          -webkit-border-radius:25px;
+          -moz-border-radius:25px;
+          border-radius:25px;
+        }
+        input:first-child{
+          margin-right: 10px;
+          border:2px solid #e3e3e3;
+        }
+        input:last-child{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  @media only screen and(max-width: 991px) and (min-width: 768px){
+    form{
+      background: #ffffff;
+      padding: 65px 80px 0 120px !important;
+      .head-top{
+        margin-bottom: 40px;
+        font-size: 20px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          left: -75px;
+          top: -14px;
+          background: url(../img/svg/cubi_icon_36_white.svg) no-repeat 6px 10px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 80%;
+        }
+      }
+      .head-bottom{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          left: -75px;
+          top: -14px;
+          background: url(../img/svg/cubi_icon_27_white.svg) no-repeat -2px 6px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 100%;
+        }
+      }
+      ul{
+        li{
+          margin-bottom: 50px;
+          position: relative;
+          input[type="radio"]{
+            display: none;
+          }
+          label{
+            font-size: 18px;
+            cursor: pointer;
+            position: relative;
+          }
+          label:after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: -3px;
+            left: -40px;
+            display: block;
+            border: 1px solid #cdcccb;
+          }
+          input[type="radio"]:checked + label:after{
+            background: url(../img/svg/cubi_icon_29.svg) no-repeat -11px -1px;
+            background-size: 150%;
+          }
+          p{
+            font-size: 16px;
+            padding-right: 0px !important;
+          }
+          .cards{
+            .visa{
+              display: inline-block;
+              width:65px;
+              height:20px;
+              background: url(../img/svg/cards/Visa_Inc._logo.svg) no-repeat 0px 0px;
+              background-size: 100%;
+            }
+            .maestro{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/Maestro_logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+            .master{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/MasterCard_Logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+          }
+        }
+      }
+      .line{
+        height:1px;
+        border-bottom:1px solid #e7e7e7;
+      }
+      .comment-basket{
+        width:100%;
+        font-family:"LightIt";
+        padding:0px 5px;
+        height:40px;
+        font-size:16px;
+        border: 1px solid #e7e6e5;
+      }
+      .line-bottom{
+        height:5px;
+        margin-top:60px;
+        margin-bottom: 30px;
+        background: url(../img/basket-dotted-line.png) no-repeat center;
+      }
+      .total-coast{
+        text-align: center;
+        span:first-child{
+          color: #efa621;
+          font-size: 25px;
+        }
+        span:last-child{
+          font-size: 25px;
+        }
+      }
+      .button-block{
+        text-align: center;
+        margin-top: 20px;
+        input{
+          margin-bottom:20px;
+          border:2px solid #eda520;
+          background: #ffffff;
+          height:40px;
+          width:175px;
+          text-align: center;
+          -webkit-border-radius:25px;
+          -moz-border-radius:25px;
+          border-radius:25px;
+        }
+        input:first-child{
+          margin-right: 10px;
+          border:2px solid #e3e3e3;
+        }
+        input:last-child{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  @media only screen and(max-width: 767px){
+    form{
+      background: #ffffff;
+      padding: 65px 0 30px!important;
+      .head-top{
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 20px;
+        position: relative;
+        &:before{
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          left: 0px;
+          right: 0px;
+          margin: 0px auto;
+          top: -55px;
+          background: url(../img/svg/cubi_icon_36_white.svg) no-repeat 6px 10px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 80%;
+        }
+      }
+      .head-bottom{
+        margin-top: 85px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        &:before {
+          position: absolute;
+          width: 47px;
+          height: 47px;
+          content: '';
+          right: 0px;
+          left: 0px;
+          top: -55px;
+          margin: 0px auto;
+          background: url(../img/svg/cubi_icon_27_white.svg) no-repeat -2px 6px,#6a7789;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          background-size: 100%;
+        }
+      }
+      ul{
+        li{
+          padding: 0 10px;
+          margin-bottom: 50px;
+          position: relative;
+          input[type="radio"]{
+            display: none;
+          }
+          label{
+            padding-left: 40px;
+            font-size: 18px;
+            cursor: pointer;
+            position: relative;
+          }
+          label:after{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: -3px;
+            left: 0;
+            display: block;
+            border: 1px solid #cdcccb;
+          }
+          input[type="radio"]:checked + label:after{
+            background: url(../img/svg/cubi_icon_29.svg) no-repeat -11px -1px;
+            background-size: 150%;
+          }
+          p{
+            font-size: 16px;
+            padding-right: 0!important;
+          }
+          .cards{
+            .visa{
+              margin-top: 15px;
+              display: inline-block;
+              width:65px;
+              height:20px;
+              background: url(../img/svg/cards/Visa_Inc._logo.svg) no-repeat 0px 0px;
+              background-size: 100%;
+            }
+            .maestro{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/Maestro_logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+            .master{
+              display: inline-block;
+              width:65px;
+              height:38px;
+              vertical-align: middle;
+              margin-top: -14px;
+              background: url(../img/svg/cards/MasterCard_Logo.svg) no-repeat 0px 0px;
+              background-size: 100% !important;
+            }
+          }
+        }
+      }
+      .line{
+        height:1px;
+        border-bottom:1px solid #e7e7e7;
+      }
+      .comment-basket{
+        width:100%;
+        font-family:"LightIt";
+        padding:0px 5px;
+        height:40px;
+        font-size:16px;
+        border: 1px solid #e7e6e5;
+      }
+      .line-bottom{
+        height:5px;
+        margin-top:60px;
+        margin-bottom: 30px;
+        background: url(../img/basket-dotted-line.png) no-repeat center;
+      }
+      .form-inputs{
+        text-align: center;
+        padding: 0 10px;
+      }
+      .total-coast{
+        text-align: center;
+        span:first-child{
+          color: #efa621;
+          font-size: 25px;
+        }
+        span:last-child{
+          font-size: 25px;
+        }
+      }
+      .button-block{
+        text-align: center;
+        margin-top: 20px;
+        input{
+          margin-bottom:20px;
+          border:2px solid #eda520;
+          background: #ffffff;
+          height:40px;
+          width:175px;
+          text-align: center;
+          -webkit-border-radius:25px;
+          -moz-border-radius:25px;
+          border-radius:25px;
+        }
+        input:first-child{
+          margin-right: 0px !important;
+          border:2px solid #e3e3e3;
+        }
+        input:last-child{
+          margin-left: 0px !important;
+        }
+      }
+    }
+  }
+}
