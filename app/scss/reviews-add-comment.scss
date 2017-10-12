@@ -1,4 +1,4 @@
-.reviews-add-comment{
+.reviews-add-comment, .good-add-comment{
   background: url(../img/reviews-add-comment-bg.png) no-repeat center;
   background-size: cover;
   form{
@@ -70,7 +70,7 @@
   }
 }
 @media only screen and(max-width: 1199px) and (min-width: 992px){
-  .reviews-add-comment{
+  .reviews-add-comment, .good-add-comment{
     form{
       padding: 0px 56px;
       padding-top: 50px;
@@ -86,7 +86,7 @@
   }
 }
 @media only screen and(max-width: 991px) and (min-width: 768px){
-  .reviews-add-comment{
+  .reviews-add-comment, .good-add-comment{
     form{
       padding: 0px 46px;
       padding-top: 50px;
@@ -102,7 +102,7 @@
   }
 }
 @media only screen and(max-width: 767px){
-  .reviews-add-comment{
+  .reviews-add-comment, .good-add-comment{
     form{
       padding: 50px 0px 0px 0px !important;
       input[type="text"],input[type="email"]{

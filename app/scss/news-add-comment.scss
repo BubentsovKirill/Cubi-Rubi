@@ -1,0 +1,121 @@
+.news-add-comment{
+  background: url(../img/news-commnet-bg.png) no-repeat center;
+  background-size: cover;
+  form{
+    padding: 0px 83px;
+    padding-top: 50px;
+    .rating{
+      span{
+        cursor: pointer;
+      }
+      .pick{
+        width:20px;
+        height:20px;
+        display: inline-block;
+        background: url(../img/svg/cubi_icon_46_reviews_form_pick.svg) no-repeat center;
+        background-size: 122%;
+      }
+      .not-pick{
+        width:20px;
+        height:20px;
+        display: inline-block;
+        background: url(../img/svg/cubi_icon_46.svg) no-repeat center;
+        background-size: 122%;
+      }
+    }
+    .rating-title{
+      padding-top: 25px;
+      font-size: 15px;
+      font-family: "Light";
+    }
+    input[type="text"],input[type="email"]{
+      width:280px;
+      height:20px;
+      height:40px;
+      padding:0px 5px;
+      border: none;
+      font-family: "Light" !important;
+    }
+    input[type="text"]{
+      margin-right: 20px;
+    }
+    input[type="submit"]{
+      width:180px;
+      font-size: 15px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+      border: none;
+      background: #f0a720;
+      color: #ffffff;
+      height: 38px;
+      text-transform: uppercase;
+      margin-bottom:30px;
+    }
+    textarea{
+      font-family: "Light";
+      border: none;
+      width:100%;
+      height:140px;
+      resize: none;
+      padding:5px;
+      margin-bottom: 30px;
+      margin-top:20px;
+    }
+    input[type="text"], input[type="email"] ::-webkit-input-placeholder {font-family: "LightIt"}
+    input[type="text"], input[type="email"] ::-moz-placeholder          {font-family: "LightIt"}
+    input[type="text"], input[type="email"] :-moz-placeholder           {font-family: "LightIt"}
+    input[type="text"], input[type="email"] :-ms-input-placeholder      {font-family: "LightIt"}
+
+  }
+}
+@media only screen and(max-width: 1199px) and (min-width: 992px){
+  .reviews-add-comment{
+    form{
+      padding: 0px 56px;
+      padding-top: 50px;
+      input[type="text"],input[type="email"]{
+        width:240px;
+        height:20px;
+        height:40px;
+        padding:0px 5px;
+        border: none;
+        font-family: "Light";
+      }
+    }
+  }
+}
+@media only screen and(max-width: 991px) and (min-width: 768px){
+  .reviews-add-comment{
+    form{
+      padding: 0px 46px;
+      padding-top: 50px;
+      input[type="text"],input[type="email"]{
+        width:301px;
+        height:20px;
+        height:40px;
+        padding:0px 5px;
+        border: none;
+        font-family: "Light";
+      }
+    }
+  }
+}
+@media only screen and(max-width: 767px){
+  .reviews-add-comment{
+    form{
+      padding: 50px 0px 0px 0px !important;
+      input[type="text"],input[type="email"]{
+        width:100% !important;
+        height:20px;
+        height:40px;
+        padding:0px 5px;
+        border: none;
+        font-family: "Light";
+      }
+      input[type="text"]{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

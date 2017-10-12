@@ -2,6 +2,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
+    <link rel="icon" sizes="32x32" href="img/svg/cubi_title_32x32.png">
+    <link rel="icon" sizes="64x64" href="img/svg/cubi_title_64x64.png">
+    <link rel="apple-touch-icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="img/svg/cubi_title_32x32.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="img/svg/cubi_title_64x64.png">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -17,7 +23,7 @@
     <div class="container header">
         <ul class="menu-top hidden-sm hidden-xs">
             <li><a href="#" class="catalogButton">
-                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                <span class="catalog-close"></span>
                 магазин
             </a></li>
             <li><a href="#">о cubirubi</a></li>
@@ -35,6 +41,71 @@
         <!--<a href="tel:++375290000000" class="phone-mobile hidden-lg hidden-md">-->
         <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
         <!--</a>-->
+        <div class="catalog hidden">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Блокноты, Eжедневники</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Пеналы</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Очки</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Все для упаковки</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Чехлы для очков</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Часы</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Коробочки для мелочей</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Папки</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Чехлы для телефонов</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Календари</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Маркеры, Ручки, Кисти</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Планшеты для рисования</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Кошельки</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Постеры</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Книги, Комиксы</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Хенд Мэйд</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Косметички</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Предметы декора</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Наклейки</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <a href="#">Особое от CubiRubi</a>
+                </div>
+            </div>
+            <div class="triangle"></div>
+        </div>
         <span class="search-button"></span>
         <a href="#" class="enter-account hidden-sm hidden-xs">Войти</a>
         <a href="#" class="card-top">
@@ -45,11 +116,11 @@
             <img src="img/cubi_logo.svg" alt="">
         </a>
         <a href="#" class="catalogButton-mobile hidden-lg hidden-md hidden-xs">
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <span class="catalog-close"></span>
             магазин
         </a>
         <span class="mobile-menu-button hidden-lg hidden-md">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <span class="mobile-menu-close"></span>
         </span>
         <div class="mobile-menu hidden-lg hidden-md hidden">
             <ul>
@@ -155,7 +226,7 @@
                     <div id = "slider"></div>
                 </li>
                 <li>
-                    <input type="button" id="advanced" value="Расширенный поиск">
+                    <input type="button" id="advanced" class="filter-close" value="Расширенный поиск">
                 </li>
             </ul>
         </form>
@@ -210,39 +281,54 @@
                 </li>
                 <li>
                     <input type="checkbox" id="12">
-                    <label for="12">Планшеты для рисования</label>
+                    <label for="12">Все</label>
                 </li>
                 <li>
                     <input type="checkbox" id="13">
-                    <label for="13">Кошельки</label>
+                    <label for="13">Планшеты для рисования</label>
                 </li>
                 <li>
                     <input type="checkbox" id="14">
-                    <label for="14">Постеры</label>
+                    <label for="14">Кошельки</label>
                 </li>
                 <li>
                     <input type="checkbox" id="15">
-                    <label for="15">Книги, Комиксы</label>
+                    <label for="15">Постеры</label>
+                </li>
+                <li>
+
                 </li>
                 <li>
                     <input type="checkbox" id="16">
-                    <label for="16">Хенд Мэйд</label>
+                    <label for="16">Книги, Комиксы</label>
                 </li>
                 <li>
                     <input type="checkbox" id="17">
-                    <label for="17">Косметички</label>
+                    <label for="17">Хенд Мэйд</label>
                 </li>
                 <li>
                     <input type="checkbox" id="18">
-                    <label for="18">Предметы декора</label>
+                    <label for="18">Косметички</label>
                 </li>
                 <li>
                     <input type="checkbox" id="19">
-                    <label for="19">Наклейки</label>
+                    <label for="19">Товары на скидках</label>
                 </li>
                 <li>
                     <input type="checkbox" id="20">
-                    <label for="20">Особое от CubiRubi</label>
+                    <label for="20">Предметы декора</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="21">
+                    <label for="21">Наклейки</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="22">
+                    <label for="22">Особое от CubiRubi</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="23">
+                    <label for="23">Только в наличии</label>
                 </li>
             </ul>
         </form>
@@ -551,6 +637,8 @@
     jQuery(document).ready(function(){
         Layout.init();
         Like.init();
+        RotateLoadMore.init();
+        ToggleFilterButton.init();
         $(function() {
             $( "#slider" ).slider({
                 range:true,

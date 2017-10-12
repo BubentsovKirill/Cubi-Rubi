@@ -1,0 +1,1184 @@
+@media only screen and(min-width: 1200px){
+  .good-block{
+    margin-bottom: 50px;
+
+    overflow: hidden;
+    #good-slider{
+      height:570px !important;
+      width:540px !important;
+      overflow: hidden;
+      .carousel-inner {
+        width:540px !important;
+        height: 570px !important;
+        .item{
+          width:540px !important;
+          height: 570px !important;
+          .slide{
+            overflow: hidden !important;
+            height: 100%;
+            background-size: cover !important;
+          }
+        }
+      }
+      .carousel-control{
+        top: 240px;
+        width:90px !important;
+        height:90px !important;
+        -webkit-border-radius:100%;
+        -moz-border-radius:100%;
+        border-radius:100%;
+        opacity:1 !important;
+        &:hover{
+          opacity:1 !important;
+        }
+      }
+      .right{
+        transform:rotate(180deg);
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        right: -40px;
+        &:hover{
+          transform:rotate(180deg);
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      }
+      .left{
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        left: -40px;
+        &:hover{
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      };
+    }
+    .carousel-indicators{
+      position: static !important;
+      margin: 0px auto;
+      margin-top: 20px;
+      li{
+        width:77px !important;
+        height:77px  !important;
+        border:none !important;
+        .good-mini{
+          border:1px solid  #ebebeb !important;
+          background-size: cover !important;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .active{
+        background: none;
+      }
+    }
+    .description{
+      .breadcrumps{
+        font-family: "LightIt";
+        .good-title{
+          color: #f89c3c;
+        }
+      }
+      .good{
+        position: relative;
+        .icon{
+          top: 0px;
+          left: -20px;
+          position: absolute;
+          width:70px;
+          height:70px;
+          background-size: cover !important;
+        }
+        h2{
+          top:-5px;
+          left: 60px;
+          font-size: 25px;
+          position: absolute;
+        }
+        span{
+          position: absolute;
+          top: 45px;
+          left: 62px;
+        }
+      }
+      .rating{
+        margin-top: 95px;
+        margin-bottom: 20px;
+        span{
+          display: inline-block;
+          width:20px;
+          height:20px;
+        }
+        .pick{
+          background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+        .not-pick{
+          background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+      }
+      .good-description{
+        min-height: 270px;
+        font-size:16px;
+      }
+    }
+    form{
+      position: relative;
+      .total{
+        position: absolute;
+        font-size:24px;
+        right: 0px !important;
+        top: -5px;
+      }
+      .amount{
+        font-family: "Regular";
+        font-size: 14px;
+      }
+      input[type="number"]{
+        width: 45px;
+        padding: 0 0 0 5px;
+      }
+      input[type="submit"]{
+        top: 72px;
+        position: absolute;
+        left: 0;
+        width:160px;
+        height:40px;
+        border:none;
+        background: #f0a720;
+        color: #ffffff;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        border-radius:25px;
+      }
+      .balance{
+        position: absolute;
+        top: 25px;
+        left: 0;
+      }
+      .like-goods{
+        cursor: pointer;
+        height:40px;
+        width:40px;
+        display: block;
+        position: absolute;
+        top: 73px;
+        left: 200px;
+        border-radius: 50%;
+        text-align: center;
+        &:hover{
+          background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+          background-size: 90%;
+          border:2px solid #f1a61f;
+        }
+      }
+      .like-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 1px 2px, #f1a61f;
+        background-size: 90%;
+        border:2px solid #f1a61f;
+
+      }
+      .like-not-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #b1b0b1;
+      }
+    }
+    .follow{
+      height: 100px !important;
+      position: relative;
+      border-top: 1px solid #ededed;
+      margin-top: 104px;
+      a:first-child{
+        color: #737474;
+        top:40px;
+        position: absolute;
+        left:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+      a:last-child{
+        top:40px;
+        color: #737474;
+        position: absolute;
+        right:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+    }
+  }
+  .good-block-add-comment{
+    margin-bottom: 50px;
+    a{
+      padding:10px 40px;
+      text-align: center;
+      border:none;
+      color: inherit;
+      border:2px solid #f0a720;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  }
+  .similar-goods{
+    background: #f6f6f6;
+    h2{
+      margin-bottom: 30px;
+      margin-top: 35px;
+    }
+  }
+  #similar-goods{
+    margin-bottom: 100px;
+    .slide{
+      .item{
+        margin: 0px auto;
+        display: block;
+        height:350px !important;
+        position: relative;
+        width:266px !important;
+        padding: 10px;
+        outline:none !important;
+        &:focus{
+          outline:none !important;
+        }
+        .title{
+          top: 206px;
+          position: absolute;
+          height: 125px;
+          width: 247px;
+          background: #fff;
+          h3{
+            text-align: left;
+            padding:0px 0px 0px 10px;
+            font-size: 20px;
+          }
+          .rating{
+            text-align: left;
+            padding-left: 10px;
+            span{
+              display: inline-block;
+              width:20px;
+              height:20px;
+            }
+            .pick{
+              background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+            .not-pick{
+              background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+          }
+          .total{
+            padding:0px 0px 0px 10px;
+            text-align: left;
+            font-size:25px;
+          }
+        }
+      }
+    }
+    .slick-prev{
+      z-index:999 !important;
+      top: 135px;
+      left: -13px;
+    }
+    .slick-prev:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+    .slick-next{
+      z-index:999 !important;
+      top: 135px;
+      right: 35px;
+    }
+    .slick-next:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+  }
+}
+@media only screen and(max-width: 1199px) and (min-width: 992px){
+  .good-block{
+    margin-bottom: 50px;
+    overflow: hidden;
+    #good-slider{
+      height:570px !important;
+      width:auto !important;
+      overflow: hidden;
+      .carousel-inner {
+        width:auto !important;
+        height: 570px !important;
+        .item{
+          width:auto !important;
+          height: 570px !important;
+          .slide{
+            overflow: hidden !important;
+            height: 100%;
+            background-size: cover !important;
+          }
+        }
+      }
+      .carousel-control{
+        top: 240px;
+        width:90px !important;
+        height:90px !important;
+        -webkit-border-radius:100%;
+        -moz-border-radius:100%;
+        border-radius:100%;
+        opacity:1 !important;
+        &:hover{
+          opacity:1 !important;
+        }
+      }
+      .right{
+        transform:rotate(180deg);
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        right: -40px;
+        &:hover{
+          transform:rotate(180deg);
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      }
+      .left{
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        left: -40px;
+        &:hover{
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      };
+    }
+    .carousel-indicators{
+      position: static !important;
+      margin: 0px auto;
+      margin-top: 20px;
+      width:100% !important;
+      li{
+        width:77px !important;
+        height:77px  !important;
+        border:none !important;
+        .good-mini{
+          border:1px solid  #ebebeb !important;
+          background-size: cover !important;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .active{
+        background: none;
+      }
+    }
+    .description{
+      .breadcrumps{
+        font-family: "LightIt";
+        .good-title{
+          color: #f89c3c;
+        }
+      }
+      .good{
+        position: relative;
+        .icon{
+          top: 0px;
+          left: -20px;
+          position: absolute;
+          width:70px;
+          height:70px;
+          background-size: cover !important;
+        }
+        h2{
+          top:-5px;
+          left: 60px;
+          font-size: 25px;
+          position: absolute;
+        }
+        span{
+          position: absolute;
+          top: 45px;
+          left: 62px;
+        }
+      }
+      .rating{
+        margin-top: 95px;
+        margin-bottom: 20px;
+        span{
+          display: inline-block;
+          width:20px;
+          height:20px;
+        }
+        .pick{
+          background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+        .not-pick{
+          background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+      }
+      .good-description{
+        min-height: 270px;
+        font-size:16px;
+      }
+    }
+    form{
+      position: relative;
+      .total{
+        position: absolute;
+        font-size:24px;
+        right: 150px;
+        top: -5px;
+      }
+      .amount{
+        font-family: "Regular";
+        font-size: 14px;
+      }
+      input[type="number"]{
+        width: 45px;
+        padding: 0 0 0 5px;
+      }
+      input[type="submit"]{
+        top: 72px;
+        position: absolute;
+        left: 0;
+        width:160px;
+        height:40px;
+        border:none;
+        background: #f0a720;
+        color: #ffffff;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        border-radius:25px;
+      }
+      .balance{
+        position: absolute;
+        top: 25px;
+        left: 0;
+      }
+      .like-goods{
+        cursor: pointer;
+        height:40px;
+        width:40px;
+        display: block;
+        position: absolute;
+        left: 200px;
+        top: 73px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .like-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #f1a61f;
+
+      }
+      .like-not-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #b1b0b1;
+      }
+    }
+    .follow{
+      position: relative;
+      border-top: 1px solid #ededed;
+      margin-top: 104px;
+      a:first-child{
+        color: #737474;
+        top:40px;
+        position: absolute;
+        left:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+      a:last-child{
+        top:40px;
+        color: #737474;
+        position: absolute;
+        right:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+    }
+  }
+  .good-block-add-comment{
+    margin-bottom: 50px;
+    a{
+      padding:10px 40px;
+      text-align: center;
+      border:none;
+      color: inherit;
+      border:2px solid #f0a720;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  }
+  .similar-goods{
+    background: #f6f6f6;
+    h2{
+      margin-bottom: 30px;
+      margin-top: 35px;
+    }
+  }
+  #similar-goods{
+    margin-bottom: 100px;
+    .slide{
+      .item{
+        margin: 0px auto;
+        display: block;
+        height:350px !important;
+        position: relative;
+        width:266px !important;
+        padding: 10px;
+        outline:none !important;
+        &:focus{
+          outline:none !important;
+        }
+        .title{
+          top: 206px;
+          position: absolute;
+          height: 125px;
+          width: 247px;
+          background: #fff;
+          h3{
+            text-align: left;
+            padding:0px 0px 0px 10px;
+            font-size: 20px;
+          }
+          .rating{
+            text-align: left;
+            padding-left: 10px;
+            span{
+              display: inline-block;
+              width:20px;
+              height:20px;
+            }
+            .pick{
+              background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+            .not-pick{
+              background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+          }
+          .total{
+            padding:0px 0px 0px 10px;
+            text-align: left;
+            font-size:25px;
+          }
+        }
+      }
+    }
+    .slick-prev{
+      z-index:999 !important;
+      top: 135px;
+      left: -13px;
+    }
+    .slick-prev:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+    .slick-next{
+      z-index:999 !important;
+      top: 135px;
+      right: 35px;
+    }
+    .slick-next:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+  }
+}
+@media only screen and(max-width: 991px) and (min-width: 768px) {
+  .good-block{
+    margin-bottom: 50px;
+    overflow: hidden;
+    #good-slider{
+      height:570px !important;
+      width:auto !important;
+      overflow: hidden;
+      .carousel-inner {
+        width:auto !important;
+        height: 570px !important;
+        .item{
+          width:auto !important;
+          height: 570px !important;
+          .slide{
+            overflow: hidden !important;
+            height: 100%;
+            background-size: cover !important;
+          }
+        }
+      }
+      .carousel-control{
+        top: 240px;
+        width:90px !important;
+        height:90px !important;
+        -webkit-border-radius:100%;
+        -moz-border-radius:100%;
+        border-radius:100%;
+        opacity:1 !important;
+        &:hover{
+          opacity:1 !important;
+        }
+      }
+      .right{
+        transform:rotate(180deg);
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        right: -40px;
+        &:hover{
+          transform:rotate(180deg);
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      }
+      .left{
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        left: -40px;
+        &:hover{
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      };
+    }
+    .carousel-indicators{
+      position: static !important;
+      margin: 0px auto;
+      margin-top: 20px;
+      width:100% !important;
+      li{
+        width:77px !important;
+        height:77px  !important;
+        border:none !important;
+        .good-mini{
+          border:1px solid  #ebebeb !important;
+          background-size: cover !important;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .active{
+        background: none;
+      }
+    }
+    .description{
+      margin-top: 50px;
+      .breadcrumps{
+        font-family: "LightIt";
+        .good-title{
+          color: #f89c3c;
+        }
+      }
+      .good{
+        position: relative;
+        .icon{
+          top: 0px;
+          left: -20px;
+          position: absolute;
+          width:70px;
+          height:70px;
+          background-size: cover !important;
+        }
+        h2{
+          top:-5px;
+          left: 60px;
+          font-size: 25px;
+          position: absolute;
+        }
+        span{
+          position: absolute;
+          top: 45px;
+          left: 62px;
+        }
+      }
+      .rating{
+        margin-top: 95px;
+        margin-bottom: 20px;
+        span{
+          display: inline-block;
+          width:20px;
+          height:20px;
+        }
+        .pick{
+          background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+        .not-pick{
+          background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+      }
+      .good-description{
+        min-height: 190px;
+        font-size:16px;
+      }
+    }
+    form{
+      position: relative;
+      .total{
+        position: absolute;
+        font-size:24px;
+        right: 150px;
+        top: -5px;
+      }
+      .amount{
+        font-family: "Regular";
+        font-size: 14px;
+      }
+      input[type="number"]{
+        width: 45px;
+        padding: 0 0 0 5px;
+      }
+      input[type="submit"]{
+        top: 72px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin:0px auto;
+        width:160px;
+        height:40px;
+        border:none;
+        background: #f0a720;
+        color: #ffffff;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        border-radius:25px;
+      }
+      .balance{
+        position: absolute;
+        top: 25px;
+        left: 0;
+      }
+      .like-goods{
+        cursor: pointer;
+        height:40px;
+        width:40px;
+        display: block;
+        position: absolute;
+        right: 200px !important;
+        top: 73px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .like-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #f1a61f;
+
+      }
+      .like-not-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #b1b0b1;
+      }
+    }
+    .follow{
+      position: relative;
+      border-top: 1px solid #ededed;
+      margin-top: 104px;
+      a:first-child{
+        color: #737474;
+        top:40px;
+        position: absolute;
+        left:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+      a:last-child{
+        top:40px;
+        color: #737474;
+        position: absolute;
+        right:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+    }
+  }
+  .good-block-add-comment{
+    margin-bottom: 50px;
+    a{
+      padding:10px 40px;
+      text-align: center;
+      border:none;
+      color: inherit;
+      border:2px solid #f0a720;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  }
+  .similar-goods{
+    background: #f6f6f6;
+    h2{
+      margin-bottom: 30px;
+      margin-top: 35px;
+    }
+  }
+  #similar-goods{
+    margin-bottom: 100px;
+    .slide{
+      .item{
+        margin: 0px auto;
+        display: block;
+        height:350px !important;
+        position: relative;
+        width:266px !important;
+        padding: 10px;
+        outline:none !important;
+        &:focus{
+          outline:none !important;
+        }
+        .title{
+          top: 206px;
+          position: absolute;
+          height: 125px;
+          width: 247px;
+          background: #fff;
+          h3{
+            text-align: left;
+            padding:0px 0px 0px 10px;
+            font-size: 20px;
+          }
+          .rating{
+            text-align: left;
+            padding-left: 10px;
+            span{
+              display: inline-block;
+              width:20px;
+              height:20px;
+            }
+            .pick{
+              background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+            .not-pick{
+              background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+          }
+          .total{
+            padding:0px 0px 0px 10px;
+            text-align: left;
+            font-size:25px;
+          }
+        }
+      }
+    }
+    .slick-prev{
+      z-index:999 !important;
+      top: 135px;
+      left: -13px;
+    }
+    .slick-prev:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+    .slick-next{
+      z-index:999 !important;
+      top: 135px;
+      right: 35px;
+    }
+    .slick-next:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+  }
+}
+@media only screen and(max-width: 767px) {
+  .good-block{
+    margin-bottom: 50px;
+    overflow: hidden;
+    #good-slider{
+      height:570px !important;
+      width:auto !important;
+      overflow: hidden;
+      .carousel-inner {
+        width:auto !important;
+        height: 570px !important;
+        .item{
+          width:auto !important;
+          height: 570px !important;
+          .slide{
+            overflow: hidden !important;
+            height: 100%;
+            background-size: cover !important;
+          }
+        }
+      }
+      .carousel-control{
+        top: 240px;
+        width:90px !important;
+        height:90px !important;
+        -webkit-border-radius:100%;
+        -moz-border-radius:100%;
+        border-radius:100%;
+        opacity:1 !important;
+        &:hover{
+          opacity:1 !important;
+        }
+      }
+      .right{
+        transform:rotate(180deg);
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        right: -40px;
+        &:hover{
+          transform:rotate(180deg);
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      }
+      .left{
+        background: url(../img/svg/cubi_icon_53.svg) no-repeat 15px 0px, #eeeeee !important;
+        left: -40px;
+        &:hover{
+          background: url(../img/svg/cubi_icon_54_good_hover.svg) no-repeat 15px 0px, #f0a720 !important;
+        }
+      };
+    }
+    .carousel-indicators{
+      position: static !important;
+      margin: 0px auto;
+      margin-top: 20px;
+      width:165px !important;
+      li{
+        width:77px !important;
+        height:77px  !important;
+        border:none !important;
+        .good-mini{
+          border:1px solid  #ebebeb !important;
+          background-size: cover !important;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .active{
+        background: none;
+      }
+    }
+    .description{
+      margin-top: 50px;
+      .breadcrumps{
+        font-family: "LightIt";
+        .good-title{
+          color: #f89c3c;
+        }
+      }
+      .good{
+        position: relative;
+        .icon{
+          top: 0px;
+          left: -20px;
+          position: absolute;
+          width:70px;
+          height:70px;
+          background-size: cover !important;
+        }
+        h2{
+          top:-5px;
+          left: 60px;
+          font-size: 18px;
+          position: absolute;
+        }
+        span{
+          position: absolute;
+          top: 45px;
+          left: 62px;
+        }
+      }
+      .rating{
+        margin-top: 95px;
+        margin-bottom: 20px;
+        span{
+          display: inline-block;
+          width:20px;
+          height:20px;
+        }
+        .pick{
+          background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+        .not-pick{
+          background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+          background-size: 113%;
+        }
+      }
+      .good-description{
+        min-height: 190px;
+        font-size:16px;
+      }
+    }
+    form{
+      position: relative;
+      .total{
+        position: absolute;
+        font-size:24px;
+        right: 150px;
+        top: -5px;
+      }
+      .amount{
+        font-family: "Regular";
+        font-size: 14px;
+      }
+      input[type="number"]{
+        width: 45px;
+        padding: 0 0 0 5px;
+      }
+      input[type="submit"]{
+        top: 72px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin:0px auto;
+        width:160px;
+        height:40px;
+        border:none;
+        background: #f0a720;
+        color: #ffffff;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        border-radius:25px;
+      }
+      .balance{
+        position: absolute;
+        top: 25px;
+        left: 0;
+      }
+      .like-goods{
+        cursor: pointer;
+        height:40px;
+        width:40px;
+        display: block;
+        position: absolute;
+        right: 120px !important;
+        top: 73px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .like-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #f1a61f;
+
+      }
+      .like-not-pick{
+        width:40px;
+        height:40px;
+        background: url(../img/svg/cubi_icon_40.svg) no-repeat 1px 2px;
+        background-size: 90%;
+        border:2px solid #b1b0b1;
+      }
+    }
+    .follow{
+      position: relative;
+      border-top: 1px solid #ededed;
+      margin-top: 104px;
+      a:first-child{
+        color: #737474;
+        top:40px;
+        position: absolute;
+        left:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+      a:last-child{
+        top:40px;
+        color: #737474;
+        position: absolute;
+        right:0;
+        font-size:16px;
+        text-decoration: none;
+      }
+    }
+  }
+  .good-block-add-comment{
+    margin-bottom: 50px;
+    a{
+      padding:10px 40px;
+      text-align: center;
+      border:none;
+      color: inherit;
+      border:2px solid #f0a720;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  }
+  .similar-goods{
+    background: #f6f6f6;
+    h2{
+      margin-bottom: 30px;
+      margin-top: 35px;
+    }
+  }
+  #similar-goods{
+    margin-bottom: 100px;
+    .slide{
+      .item{
+        margin: 0px auto;
+        display: block;
+        height:350px !important;
+        position: relative;
+        width:266px !important;
+        padding: 10px;
+        outline:none !important;
+        &:focus{
+          outline:none !important;
+        }
+        .title{
+          top: 206px;
+          position: absolute;
+          height: 125px;
+          width: 247px;
+          background: #fff;
+          h3{
+            text-align: left;
+            padding:0px 0px 0px 10px;
+            font-size: 20px;
+          }
+          .rating{
+            text-align: left;
+            padding-left: 10px;
+            span{
+              display: inline-block;
+              width:20px;
+              height:20px;
+            }
+            .pick{
+              background: url(../img/svg/cubi_icon_47.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+            .not-pick{
+              background: url(../img/svg/cubi_icon_47_hover.svg) no-repeat -2px -3px;
+              background-size: 113%;
+            }
+          }
+          .total{
+            padding:0px 0px 0px 10px;
+            text-align: left;
+            font-size:25px;
+          }
+        }
+      }
+    }
+    .slick-prev{
+      z-index:999 !important;
+      top: 135px;
+      left: -13px;
+    }
+    .slick-prev:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+    .slick-next{
+      z-index:999 !important;
+      top: 135px;
+      right: 35px;
+    }
+    .slick-next:before{
+      font-size:70px !important;
+      opacity:1 !important;
+    }
+  }
+}

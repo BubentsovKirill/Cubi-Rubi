@@ -2,6 +2,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
+    <link rel="icon" sizes="32x32" href="img/svg/cubi_title_32x32.png">
+    <link rel="icon" sizes="64x64" href="img/svg/cubi_title_64x64.png">
+    <link rel="apple-touch-icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="img/svg/cubi_title_32x32.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="img/svg/cubi_title_64x64.png">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,7 +21,7 @@
     <div class="container header">
         <ul class="menu-top hidden-sm hidden-xs">
             <li><a href="#" class="catalogButton">
-                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <span class="catalog-close"></span>
                 магазин
             </a></li>
             <li><a href="#">о cubirubi</a></li>
@@ -108,11 +114,11 @@
             <img src="img/cubi_logo.svg" alt="">
         </a>
         <a href="#" class="catalogButton-mobile hidden-lg hidden-md hidden-xs">
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <span class="catalog-close"></span>
             магазин
         </a>
         <span class="mobile-menu-button hidden-lg hidden-md">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <span class="mobile-menu-close"></span>
         </span>
         <div class="mobile-menu hidden-lg hidden-md hidden">
             <ul>
@@ -134,9 +140,6 @@
     <div class="row">
         <div class="col-md-12">
             <h1>Новости</h1>
-            <form action="">
-                <input type="text" placeholder="Поиск по блогу и новостям">
-            </form>
         </div>
     </div>
 </div>
@@ -285,10 +288,30 @@
 </div>
 <!--load-more-->
 <div class="load-more-block" style="margin-top: 50px;">
-    <a href="#"><span></span>Загрузить еще</a>
+    <a href="#"><span class=""></span>Загрузить еще</a>
 </div>
-<div class="news-article-add-comment-button">
-    <a href="#">Оставить коментарий</a>
+<div class="container-fluid news-add-comment">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form id="comment-form" action="">
+                    <input type="text" required="required" placeholder="Фамилия Имя">
+                    <input type="email" required="required" placeholder="Email">
+                    <p class="rating-title">Ваша оценка</p>
+                    <div class="rating">
+                        <span class="pick" data-rating="1"></span>
+                        <span class="not-pick" data-rating="2"></span>
+                        <span class="not-pick" data-rating="3"></span>
+                        <span class="not-pick" data-rating="4"></span>
+                        <span class="not-pick" data-rating="5"></span>
+                    </div>
+                    <input type="number" class="hidden" name="rating" id="rating" class="" value="1">
+                    <textarea name="" required="required" placeholder="Отзыв"></textarea>
+                    <input type="submit" value="Отравить">
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <!--news-slider-->
 <div class="news-article-slider">
@@ -478,6 +501,8 @@
     jQuery(document).ready(function(){
         Layout.init();
         NewsArticlesSlider.init();
+        Rating.init();
+        RotateLoadMore.init();
     })
 </script>
 </body>

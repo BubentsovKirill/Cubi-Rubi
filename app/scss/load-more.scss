@@ -17,5 +17,13 @@
       left: -32px;
       top: -6px;
     }
+    .full-rotate{
+      transform: rotate(1440deg);
+      -webkit-transition: 3s ease-in-out;
+      -moz-transition: 3s ease-in-out;
+      -ms-transition: 3s ease-in-out;
+      -o-transition: 3s ease-in-out;
+      transition: 3s ease-in-out;
+    }
   }
 }

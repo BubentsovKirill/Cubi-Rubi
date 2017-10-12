@@ -112,11 +112,16 @@
           position: absolute;
           border-radius: 50%;
           text-align: center;
+          &:hover{
+            background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+            background-size: 90%;
+            border:2px solid #f1a61f;
+          }
         }
         .like-pick{
           width:40px;
           height:40px;
-          background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 1px 2px;
+          background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 1px 2px, #f1a61f;
           background-size: 90%;
           border:2px solid #f1a61f;
 

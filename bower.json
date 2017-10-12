@@ -1,5 +1,5 @@
 {
-  "name": "start-build",
+  "name": "cubirubi",
   "authors": [
     "Kirill Bubentsov <kirill.dm6@gmail.com>"
   ],
@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "font-awesome": "^4.7.0",
     "jquery-ui": "^1.12.1",
     "ion.rangeSlider": "^2.2.0"
   }

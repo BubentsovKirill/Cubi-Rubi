@@ -135,13 +135,14 @@
       }
       li:nth-child(1){
         input{
+          border: 1px solid #e7e6e5;
           width:90%;
           height:30px;
           padding:0px 5px;
           font-family: "LightIt";
           padding-left: 30px;
           background: url(../img/svg/cubi_icon_49_news_search.svg) no-repeat 0px 0px;
-          background-size: 110%;
+
         }
       }
       li:nth-child(3){
@@ -156,16 +157,22 @@
       li:nth-child(4){
         margin-left: 26px;
         text-align: right;
-        input{
+        #advanced{
           padding-left: 20px;
           width:210px;
           height:40px;
-          color: #ffffff;
-          background:url(../img/svg/cubi_icon_39.svg) no-repeat 10px 0px, #f89520;
           border:none;
           -webkit-border-radius:25px;
           -moz-border-radius:25px;
           border-radius:25px;
+        }
+        .filter-close{
+          background:url(../img/svg/cubi_icon_39_close.svg) no-repeat 10px 0px, #f7f7f7;
+          color: #6e6e6f;
+        }
+        .filter-open{
+          background:url(../img/svg/cubi_icon_39.svg) no-repeat 10px 0px, #f89520;
+          color: #fff;
         }
       }
     }
@@ -258,7 +265,7 @@
             font-family: "LightIt";
             padding-left: 30px;
             background: url(../img/svg/cubi_icon_49_news_search.svg) no-repeat 0px 0px;
-            background-size: 110%;
+
           }
         }
         li:nth-child(3){
@@ -377,7 +384,7 @@
             font-family: "LightIt";
             padding-left: 30px;
             background: url(../img/svg/cubi_icon_49_news_search.svg) no-repeat 0px 0px;
-            background-size: 110%;
+
           }
         }
         li:nth-child(2){
@@ -500,7 +507,6 @@
             font-family: "LightIt";
             padding-left: 30px;
             background: url(../img/svg/cubi_icon_49_news_search.svg) no-repeat 0px 0px;
-            background-size: 110%;
           }
         }
         li:nth-child(2){

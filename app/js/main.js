@@ -1,14 +1,8 @@
-var modals = $('.modal');
-
-var modalControl = function(){
-
-}
-
 var Layout = function(){
    var showCatalogBlock = function(){
     var catalogButton = $('.catalogButton, .catalogButton-mobile');
     var catalogBlock = $('.catalog');
-    var catalogButtonArrow = $('.catalogButton i, .catalogButton-mobile i');
+    var catalogButtonArrow = $('.catalogButton span, .catalogButton-mobile span');
     catalogButton.on('click',function(event){
         event.preventDefault();
         if($('.enter').hasClass('visible')){
@@ -19,12 +13,12 @@ var Layout = function(){
         }
         if(catalogBlock.hasClass('hidden')){
             catalogBlock.removeClass('hidden').addClass('visible');
-            catalogButtonArrow.removeClass('fa-caret-down').addClass('fa-caret-up');
+            catalogButtonArrow.removeClass('catalog-close').addClass('catalog-open');
 
         }
         else{
             catalogBlock.removeClass('visible').addClass('hidden');
-            catalogButtonArrow.removeClass('fa-caret-up').addClass('fa-caret-down');
+            catalogButtonArrow.removeClass('catalog-open').addClass('catalog-close');
         }
     })
    };
@@ -83,14 +77,14 @@ var Layout = function(){
                $('.registration').removeClass('visible').addClass('hidden');
                $('.enter').removeClass('visible').addClass('hidden');;
                menuMobile.removeClass('hidden').addClass('visible');
-               menuButton.children('i').removeClass('fa-bars').addClass('fa-times');
+               menuButton.children('span').removeClass('mobile-menu-close').addClass('mobile-menu-open');
                $('.mobile-search-block').removeClass('visible').addClass('hidden');
                $('.search-button').removeClass('search-icon-active').addClass('search-icon-passive');
                $('.mobile-search-block input').val('');
            }
            else{
                menuMobile.removeClass('visible').addClass('hidden');
-               menuButton.children('i').removeClass('fa-times').addClass('fa-bars');
+               menuButton.children('span').removeClass('mobile-menu-open').addClass('mobile-menu-close');
            }
        })
     };

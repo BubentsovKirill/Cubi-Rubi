@@ -52,169 +52,6 @@
         margin-bottom: 10px;
       }
     }
-    .enter{
-      left:0;
-      right:0;
-      margin:0px auto;
-      top:75px;
-      padding-top: 5px;
-      background: #fff;
-      z-index:999;
-      width:450px;
-      position: absolute;
-      background: url(../img/icon/form-flower-small.gif) no-repeat 20px -9px , url(../img/icon/form-flower-big.gif) no-repeat 362px 392px #fff;
-      .close-enter-button{
-        right: 10px;
-        top: 10px;
-        display: block;
-        position: absolute;
-        width:25px;
-        height:25px;
-        cursor: pointer;
-        background: url(../img/icon/closeformbutton.gif) no-repeat center;
-      }
-      h3{
-        color: #6e6e6f;
-        text-align: center;
-        font-family: "Light";
-        font-size:22px;
-        margin-bottom: 40px;
-      }
-      input[type="text"], input[type="password"] {
-        border:1px solid #6e6e6f;
-        padding:10px;
-        width:280px;
-        margin: 0 auto;
-        display: block;
-        font-family: "LightIt";
-        background: #fff !important;
-      }
-      input[type="text"]{
-        margin-bottom: 15px;
-      }
-      input[type="password"]{
-        margin-bottom: 30px;
-      }
-      input[type="submit"]{
-        display: block;
-        margin: 0 auto;
-        margin-top:10px;
-        padding:10px;
-        border:none;
-        background: #59718d;
-        font-family: 'Regular';
-        font-size:16px;
-        color: #fff;
-        padding:12px 25px;
-        -webkit-border-radius:20px;
-        -moz-border-radius:20px;
-        border-radius:20px;
-        margin-bottom: 20px;
-      }
-      p{
-        text-align: center;
-        a{
-          color: #fcb23a;
-          text-decoration: underline;
-        }
-      }
-      h4{
-        text-align: center;
-      }
-      ul{
-        margin-top: 30px;
-        margin-bottom: 27px;
-        text-align: center;
-        li{
-          display: inline-block;
-          margin: 0px 5px;
-          a{
-            -webkit-border-radius:50%;
-            -moz-border-radius:50%;
-            border-radius:50%;
-            display: block;
-            background: #707d90;
-            height:45px;
-            width:45px;
-            i{
-              color: #fff;
-              padding-top: 11px;
-              font-size: 25px;
-            }
-          }
-          a:hover{
-            background:#42bda5;
-            i{
-              color: #57768f;
-            }
-          }
-        }
-      }
-
-    }
-    .registration{
-      left:0;
-      right:0;
-      margin:0px auto;
-      top:75px;
-      padding-top: 5px;
-      background: #fff;
-      z-index:999;
-      width:450px;
-      position: absolute;
-      background: url(../img/icon/form-flower-small.gif) no-repeat 20px -9px , url(../img/icon/form-flower-big.gif) no-repeat 362px 392px #fff;
-      .close-registration-button{
-        right: 10px;
-        top: 10px;
-        display: block;
-        position: absolute;
-        width:25px;
-        height:25px;
-        cursor: pointer;
-        background: url(../img/icon/closeformbutton.gif) no-repeat center;
-      }
-      h3{
-        color: #6e6e6f;
-        text-align: center;
-        font-family: "Light";
-        font-size:22px;
-        margin-bottom: 40px;
-      }
-      input[type="text"], input[type="password"] {
-        border:1px solid #6e6e6f;
-        padding:10px;
-        width:280px;
-        margin: 0 auto;
-        display: block;
-        font-family: "LightIt";
-        background: #fff !important;
-        margin-bottom: 30px;
-      }
-      input[type="submit"]{
-        display: block;
-        margin: 0 auto;
-        margin-top:40px;
-        padding:10px;
-        border:none;
-        background: #59718d;
-        font-family: 'Regular';
-        font-size:16px;
-        color: #fff;
-        padding:12px 25px;
-        -webkit-border-radius:20px;
-        -moz-border-radius:20px;
-        border-radius:20px;
-        margin-bottom: 15px;
-      }
-      p{
-        text-align: center;
-        margin-bottom: 90px;
-        a{
-          color: #fcb23a;
-          text-decoration: underline;
-        }
-      }
-    }
     .item{
       height: 100%;
       .slide{
@@ -237,12 +74,12 @@
       height:100%;
       width:100%;
       border-radius: 50%;
-      background: url(../img/icon/slider-arrow-left.gif) no-repeat 24px 16px , #fff;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0px 0px , #fff;
     }
   }
   .back:hover{
     span{
-      background: url(../img/icon/slider-arrow-left-hover.gif) no-repeat 24px 16px, #fff;
+      background: url(../img/svg/cubi_icon_54.svg) no-repeat 0px 0px, #fff;
     }
   }
   .forward{
@@ -255,16 +92,18 @@
     background: #fff;
     border-radius: 50%;
     span{
+      transform: rotate(180deg);
       display: block;
       height:100%;
       width:100%;
       border-radius: 50%;
-      background: url(../img/icon/slider-arrow-right.gif) no-repeat 24px 16px , #fff;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0px 0px , #fff;
     }
   }
   .forward:hover{
     span{
-      background: url(../img/icon/slider-arrow-right-hover.gif) no-repeat 24px 16px, #fff;
+      transform: rotate(180deg);
+      background: url(../img/svg/cubi_icon_54.svg) no-repeat 0px 0px, #fff;
     }
   }
   @media only screen and(min-width: 1200px){
@@ -345,171 +184,6 @@
       right:15%;
     }
     .carousel-inner{
-      .enter{
-        display: block;
-        margin-top: 80px;
-        left:0;
-        right:0;
-        margin:0px auto;
-
-        top:0;
-        padding-top: 5px;
-        background: #fff;
-        z-index:999;
-        width:100%;
-        position: absolute;
-        background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px , url(../img/icon/form-flower-big.gif) no-repeat 310px 385px  #fff;
-        .close-enter-button{
-          right: 10px;
-          top: 10px;
-          display: block;
-          position: absolute;
-          width:25px;
-          height:25px;
-          cursor: pointer;
-          background: url(../img/icon/closeformbutton.gif) no-repeat center;
-        }
-        h3{
-          text-align: center;
-          font-family: "Light";
-          font-size:25px;
-          margin-bottom: 40px;
-          margin-top: 90px;
-        }
-        input[type="text"], input[type="password"] {
-          padding:10px;
-          width:280px;
-          margin: 0 auto;
-          display: block;
-          font-family: "LightIt";
-          background: #fff !important;
-        }
-        input[type="text"]{
-          margin-bottom: 15px;
-        }
-        input[type="password"]{
-          margin-bottom: 30px;
-        }
-        input[type="submit"]{
-          display: block;
-          margin: 0 auto;
-          margin-top:10px;
-          padding:10px;
-          border:none;
-          background: #59718d;
-          font-family: 'Regular';
-          font-size:16px;
-          color: #fff;
-          padding:10px 25px;
-          -webkit-border-radius:20px;
-          -moz-border-radius:20px;
-          border-radius:20px;
-          margin-bottom: 20px;
-        }
-        p{
-          text-align: center;
-          a{
-            color: #fcb23a;
-            text-decoration: underline;
-          }
-        }
-        h4{
-          text-align: center;
-        }
-        ul{
-          margin-top: 30px;
-          margin-bottom: 30px;
-          text-align: center;
-          li{
-            display: inline-block;
-            margin: 0px 5px;
-            a{
-              -webkit-border-radius:50%;
-              -moz-border-radius:50%;
-              border-radius:50%;
-              display: block;
-              background: #707d90;
-              height:45px;
-              width:45px;
-              i{
-                color: #fff;
-                padding-top: 11px;
-                font-size: 25px;
-              }
-            }
-            a:hover{
-              background:#42bda5;
-              i{
-                color: #57768f;
-              }
-            }
-          }
-        }
-
-      }
-      .registration{
-        left:0;
-        right:0;
-        margin:0px auto;
-        top:0;
-        padding-top: 5px;
-        background: #fff;
-        z-index:999;
-        width:100%;
-        position: absolute;
-        background: url(../img/icon/form-flower-small.gif) no-repeat 20px 20px , url(../img/icon/form-flower-big.gif) no-repeat 310px 385px #fff;
-        .close-registration-button{
-          right: 10px;
-          top: 10px;
-          display: block;
-          position: absolute;
-          width:25px;
-          height:25px;
-          cursor: pointer;
-          background: url(../img/icon/closeformbutton.gif) no-repeat center;
-        }
-        h3{
-          text-align: center;
-          font-family: "Light";
-          font-size:25px;
-          margin-top: 90px;
-          margin-bottom: 40px;
-        }
-        input[type="text"], input[type="password"] {
-          padding:10px;
-          width:280px;
-          margin: 0 auto;
-          display: block;
-          font-family: "LightIt";
-          background: #fff !important;
-          margin-bottom: 30px;
-        }
-        input[type="submit"]{
-          display: block;
-          margin: 0 auto;
-          margin-top:40px;
-          padding:10px;
-          border:none;
-          background: #59718d;
-          font-family: 'Regular';
-          font-size:16px;
-          color: #fff;
-          padding:10px 25px;
-          -webkit-border-radius:20px;
-          -moz-border-radius:20px;
-          border-radius:20px;
-          margin-bottom: 15px;
-        }
-        p{
-          text-align: center;
-          margin-bottom: 90px;
-          margin-top: 40px;
-          a{
-            color: #fcb23a;
-            text-decoration: underline;
-          }
-        }
-      }
     }
   }
 }

@@ -23,7 +23,6 @@ gulp.task('scss', function(){
 	.pipe(sourcemaps.init())
 	.pipe(sass())
 	.pipe(rename('style.css'))
-	.pipe(sourcemaps.write())
 	.pipe(gulp.dest('app/css/'))
 });
 
@@ -38,15 +37,10 @@ gulp.task('js',function(){
 });
 
 gulp.task('css',['scss'], function(){
-	return gulp.src([
-		'app/libs/normalize-css/normalize.css',
-		'app/libs/font-awesome/css/font-awesome.css',
-		'app/css/style.css'
-	])
+	return gulp.src('app/css/style.css')
 	.pipe(sourcemaps.init())
 	.pipe(concat('style.min.css'))
 	.pipe(csso())
-	.pipe(sourcemaps.write())
 	.pipe(gulp.dest('tmp/css/'))
 });
 
@@ -87,12 +81,12 @@ gulp.task('clear',function(){
 
 gulp.task('default',['browser-sync','html','scss','js'], function(){
 	gulp.watch('app/*.html', ['html']);
-	gulp.watch('tmp/*.html', browserSync.reload);
+	gulp.watch('tmp/*.html');
 	gulp.watch('app/scss/*.scss', ['scss']);
 	gulp.watch('app/css/*.css', ['css']);
-	gulp.watch('tmp/css/*.css', browserSync.reload);
+	gulp.watch('tmp/css/*.css');
 	gulp.watch('app/js/*.js', ['js']);
-	gulp.watch('tmp/js/*.js', browserSync.reload);
+	gulp.watch('tmp/js/*.js');
 });
 
 gulp.task('build',['clear','img','scss','js'],function(){
