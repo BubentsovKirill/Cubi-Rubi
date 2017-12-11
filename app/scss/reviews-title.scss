@@ -2,8 +2,56 @@
   h1{
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 70px;
+    margin-top: 50px;
   }
   margin-top:90px;
-  padding:60px 0px 90px 0px;
-  background: url(../img/reviews-top-bg.png) no-repeat center;
+  .button{
+  	margin-bottom: 100px;
+  	font-size: 16px;
+  	text-align: center;
+
+  	.active{
+  		background: #eda520;
+  		color: #fff;
+  	}
+
+	.not-active{
+		background: #fff;
+		color: #6e6e6f;
+	}
+  	.left{
+  		cursor: pointer;
+  		padding: 10px 10px;
+ 		margin-right: -3px;
+  		border-radius: 20px 0 0 20px;
+  		border: 1px solid #eda520;
+  	
+  	}
+  	.right{
+  		cursor: pointer;	
+  		padding: 10px 10px;
+  		margin-left: -3px;
+  		border-radius: 0px 20px 20px 0;
+  		border: 1px solid #eda520;
+  	}
+  }
+}
+#items{
+	.img-item{
+		width: 200px;
+		margin: 0px auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.link{
+		text-align: center;
+    	display: block;
+    	color: #6e6e6f;
+    	text-decoration: underline;
+    	margin-bottom: 20px;
+	}
+	.reviews-item{
+		margin-bottom: 50px;
+	}
 }

@@ -160,4 +160,70 @@
       text-decoration: underline;
     }
   }
+  #fadeBlock{
+    div:nth-child(1){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_2.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(2){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_19.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(3){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_9.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(4){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_1.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(5){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_7.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(6){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_20.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(7){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_12.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    div:nth-child(8){
+      a{
+        background: url(../img/svg/SVG_catalog/cubi_icon_16.svg) no-repeat;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }

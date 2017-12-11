@@ -45,12 +45,15 @@
       -webkit-border-radius:25px;
       -moz-border-radius:25px;
       border-radius:25px;
-      border: none;
+      border: 1px solid #e0950f;
       background: #f0a720;
       color: #ffffff;
       height: 38px;
       text-transform: uppercase;
       margin-bottom:30px;
+       &:hover{
+       background: #e79707;
+    }
     }
     textarea{
       font-family: "Light";

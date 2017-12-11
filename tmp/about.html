@@ -8,6 +8,7 @@
     <link rel="apple-touch-icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
     <link rel="apple-touch-icon" sizes="32x32" href="img/svg/cubi_title_32x32.png">
     <link rel="apple-touch-icon" sizes="64x64" href="img/svg/cubi_title_64x64.png">
+     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAX5VKnp4ux8RiHsbldfd1VnB82h4yiLD4"></script>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -26,7 +27,10 @@
             </a></li>
             <li><a href="#">о cubirubi</a></li>
             <li><a href="#">отзывы</a></li>
-            <li><a href="#">скидки</a></li>
+            <li>
+                <span></span>
+                <a href="#">скидки</a>
+            </li>
             <li class="logo-desktop"><a href="#"><img src="img/cubi_logo.svg" alt=""></a></li>
             <li><a href="#">новости</a></li>
             <li><a href="#">контакты</a></li>
@@ -102,7 +106,6 @@
                     <a href="#">Особое от CubiRubi</a>
                 </div>
             </div>
-            <div class="triangle"></div>
         </div>
         <span class="search-button"></span>
         <a href="#" class="enter-account hidden-sm hidden-xs">Войти</a>
@@ -126,7 +129,10 @@
                 <li><a href="#">магазин</a></li>
                 <li><a href="#">о cubirubi</a></li>
                 <li><a href="#">отзывы</a></li>
-                <li><a href="#">скидки</a></li>
+                <li>
+                    <span></span>
+                    <a href="#">скидки</a>
+                </li>
                 <li><a href="#">новости</a></li>
                 <li><a href="#">контакты</a></li>
             </ul>
@@ -139,7 +145,7 @@
     <div class="row hidden-lg hidden-md hidden-sm">
         <div class="col-xs-12">
             <div class="about-title-block-mobile">
-                <div class="head"></div>
+                <div class="head">О нас</div>
                 <p>
                     До Нового Года всего ничего, а у меня ещё нету подарков!
                     <br>
@@ -151,12 +157,12 @@
         </div>
     </div>
 </div>
-<div class="container-fluid about-top-block">
+<div class="container-fluid about-top-block hidden-xs">
     <!--title-mobile-->
     <!--title-others-screen-->
     <div class="row hidden-xs">
         <div class="title-block">
-            <div class="head"></div>
+            <h2>О нас</h2>
             <p>
                 До Нового Года всего ничего, а у меня ещё нету подарков!
                 <br>
@@ -167,56 +173,97 @@
         </div>
     </div>
 </div>
-<div class="about-content">
-    <div class="container-fluid line-1">
-        <div class="row">
-            <div class="col-md-7 col-sm-7 col-xs-12 left"></div>
-            <div class="col-md-5 col-sm-5 col-xs-12 right">
-                <h3>Приходите в наш магазин</h3>
-                <p class="first">Мы находимся по адресу:</p>
-                <p class="second">Проспект независимости, 44</p>
-                <p class="third">Мы открыты с 12:00 до 22:00 <br>
-                без выходных</p>
+<div class="container team">
+    <div class="row">
+        <h3 class="text-center">Наша команда</h3>
+        <div class="col-md-4 firts">
+            <div class="bg">
+                <img src="img/team-person.gif">
             </div>
+            <p class="text-center name">Имя Имя</p>
+            <p class="text-center position">продавец консультант</p>
+        </div>
+        <div class="col-md-4 second">
+              <div class="bg">
+               <img src="img/team-person.gif">
+            </div>
+            <p class="text-center name">Имя Имя</p>
+            <p class="text-center position">продавец консультант</p>
+        </div>
+        <div class="col-md-4 third">
+              <div class="bg">
+                <img src="img/team-person.gif">
+            </div>
+            <p class="text-center name">Имя Имя</p>
+            <p class="text-center position">продавец консультант</p>
+        </div>    
+    </div>
+</div>
+<div id="present">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/present.gif" style='margin: 0px auto; display: block'>
+                <h3 class="text-center">Оформите подарок прямо у нас!</h3>
+                <p class="text-center" style="font-size: 20px">Наш художник, с удовольствием оформит прекрасный подарок, прямо не отходя от кассы.</p>
+            </div>   
         </div>
     </div>
+</div>
+<div class="about-content">
     <div class="container-fluid line-2">
         <div class="row">
             <div class="col-md-5 col-sm-5 col-xs-12 left-2">
                 <div class="wrap">
-                    <h3>Наш проект</h3>
                     <div class="tea-logo"></div>
-                    <p>Мы делим пространсто и просто
-                        дружим с замечательными любителями
-                        китайского чая</p>
+                    <p>CUBIRUBI и Чайная Почта – два наших проекта, и если вы любите чай – заходите на наш чайны интернет-магазин tea-mail.by. Кстати, скидочные карты CR работают и в Чайной Почте! </p>
                     <a href="http://www.tea-mail.by/">На сайт tea-meail.by</a>
                 </div>
             </div>
-            <div class="col-md-7 col-sm-7 col-xs-12 right-2"></div>
+            <div class="col-md-7 col-sm-7 col-xs-12 right-2 hidden-sm hidden-xs"></div>
         </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div id="google-map" style="height: 500px;"></div>
     </div>
 </div>
 <div class="container-fluid footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
-                <a href="tel:+3752900000" class="phone-number">+375290000000</a>
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 left">
+                <a href="tel:+3752900000" class="phone-number" style="text-decoration: none">+375290000000</a>
                 <ul class="adress">
-                    <h4>Наш адрес</h4>
                     <li> г. Минск, ст.м. Пл. Победы,
                         <br> пр. Независимости, 44,
                         <br>вход со двора Вечернего Минска
                     </li>
                     <br>
-                    <li>  Мы открыты с 12:00 до 22:00 <br>
-                        без выходных
+                    <li> Открыты ежедневно с 12:00 до 22:00
+                        <br>
+                        без обеда и выходных.
                     </li>
                 </ul>
-                <div class="map-road">
-                    <a href="#">Показать карту проезда</a>
-                </div>
+                <ul class="cards">
+                    <li>
+                        <img src="img/icon/cards/AE.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/PSI.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MAESTRO.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MASTER.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/BELCARD.gif" alt="">
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 right">
                 <ul class="social-link">
                     <li>
                         <a href="#" class="fb"></a>
@@ -253,27 +300,20 @@
                     </tr>
                 </table>
                 <div class="our-project">
-                    <a href="#">Наш проект: Чайная почта</a>
+                    <a href="#">Наш чайный проект - Чайная почта</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <ul class="pay-service">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+        <p style="text-align: center; margin-top: 60px; color: #c5cad2">Частное предприятие "РубиВейв", УНП 192259405, свидетельство выдано Мингорисполкомом 17.04.14, зарегистрирован в
+            Торговом реестре Республики Беларусь 02.03.15, регистрационный номер 209310</p>
     </div>
+
 </div>
 <form action="#" class="enter hidden">
     <div>
         <span class="close-enter-button"></span>
         <h3>Войти</h3>
-        <input type="text" placeholder="Логин или Email">
+        <input type="text" placeholder="Email">
         <br>
         <input type="password" placeholder="Пароль" />
         <input type="submit" value="Войти">
@@ -308,12 +348,13 @@
     <p>Уже есть аккаунт ? <a href="#" class="enter-open">Войти</a></p>
 </form>
 <form action="#" class="search-form hidden">
-    <input type="text" placeholder="Поиск">
+    <input type="text" placeholder="Что будем искать, хозяин ?">
 </form>
 <script src="js/js.min.js"></script>
 <script>
     jQuery(document).ready(function(){
         Layout.init();
+        Map.init();
     })
 </script>
 </body>

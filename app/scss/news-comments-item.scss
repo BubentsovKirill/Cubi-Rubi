@@ -57,11 +57,51 @@
   }
 }
 
-
 .news-article-slider{
-  background: url(../img/news-arcticle-bt-bg.jpg) no-repeat center, #f495b3;
-  background-size: cover;
-  #news-article-carousel{
+
+  .hvr-radial-out{
+    bottom: 0 !important;
+    color: #f0a720;
+    background: 0 0 !important;
+  }
+  .hvr-radial-out:hover{
+    background: #f0a720;
+    color: #fff!important;
+  }
+  .left {
+    height: 50px;
+    width:50px;
+    z-index:99999;
+    opacity: 1;
+    background-image: none !important;
+    top:200px;
+    left: -15px;
+    span{
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0 0,#fff;
+    }
+  }
+  .right{
+    height: 50px;
+    width:50px;
+    z-index:99999;
+    opacity: 1;
+    background-image: none !important;
+    top:200px;
+    right: -15px;
+    span{
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0 0,#fff;
+      transform: rotate(180deg);
+    }
+  }
+  #news-carousel{
     height:100%;
     .slide-place{
       margin: 0px auto;
@@ -80,9 +120,9 @@
         z-index: 100;
         transform: skewX(-2.1deg) rotate(-2deg);
         position: absolute;
-        .pink{
+        .blue{
           height: 20px;
-          background: #f495b3;
+          background: #ff759f;
         }
         .white{
           background: #ffffff;
@@ -99,7 +139,7 @@
           }
         }
       }
-      .news-article-info{
+      .news-info{
         position: relative;
         padding-top: 20px;
         .date{
@@ -129,7 +169,7 @@
     .col-md-4{
       position: relative;
       color: #fff;
-      .news-article-text{
+      .news-text{
         height:530px;
         h4{
           margin-top: 20px;
@@ -137,12 +177,9 @@
           font-size: 30px;
           font-family: "Light";
         }
-        a{
-          color: #ffffff !important;
-        }
-        .news-article-description{
-          margin-top: 40px;
-          .new-article-description{
+        .news-description{
+          margin-top: 30px;
+          .new-description{
             h3{
               font-size:20px;
               color:#fff;
@@ -170,66 +207,54 @@
           -moz-border-radius:20px;
           border-radius:20px;
         }
-        .slider-control{
-          .left{
-            margin-right:25px;
-            -webkit-border-radius:100%;
-            -moz-border-radius:100%;
-            border-radius:100%;
-            display: inline-block;
-            border:none;
-            background: url(../img/svg/cubi_icon_53.svg) no-repeat center, #ffffff;
-            padding:0;
-            width:60px !important;
-            height:60px !important;
-            &:hover{
-              background: url(../img/svg/cubi_icon_54.svg) no-repeat center, #ffffff;
-            }
-          }
-          .right{
-            transform: rotate(180deg);
-            background: url(../img/svg/cubi_icon_53.svg) no-repeat center, #ffffff;
-            -webkit-border-radius:100%;
-            -moz-border-radius:100%;
-            border-radius:100%;
-            border:none;
-            display: inline-block;
-            padding:0;
-            width:60px !important;
-            height:60px !important;
-            &:hover{
-              background: url(../img/svg/cubi_icon_54.svg) no-repeat center, #ffffff;
-            }
-          }
-        }
       }
     }
   }
 }
-
 @media only screen and(min-width: 1200px){
   .news-article-slider{
     z-index:200 !important;
     height:580px;
     position: relative;
+    background: url(../img/news-arcticle-bt-bg.jpg) no-repeat 0 0, #ff759f;
+    .news-indicators{
+      top: 80px;
+      left: 40px;
+      bottom: 440px;
+      li{
+        margin: 3px;
+      }
+    }
   }
+
 }
 @media only screen and(max-width: 1199px) and (min-width: 992px){
   .news-article-slider{
     z-index:200 !important;
     height:580px;
+    position: relative;
+    background: url(../img/news-arcticle-bt-bg.jpg) no-repeat 0 0, #ff759f;
   }
-  .news-article-description{
+
+  .news-indicators{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    bottom: 404px;
+    li{
+    }
+  }
+  .news-description{
     min-height: 290px;
   }
-  .news-article-text{
+  .news-text{
     height:530px;
     h4{
       margin-top: 25px !important;
     }
-    .news-article-description{
-      margin-top: 40px !important;
-      .new-article-description{
+    .news-description{
+      margin-top:30px !important;
+      .new-description{
         h3{
           padding-top: 5px;
           margin-bottom: 25px;
@@ -246,7 +271,7 @@
 }
 @media only screen and(max-width: 991px) and (min-width: 768px){
   .news-article-slider{
-    background: #f495b3;
+    background: #ff759f;
     .carousel-indicators{
       position: absolute;
       top: 100px;
@@ -256,7 +281,7 @@
         margin: 3px;
       }
     }
-    .news-article-description{
+    .news-description{
       min-height: 350px;
     }
   }
@@ -267,16 +292,21 @@
       width: 320px !important;
     }
   }
-  .news-article-text{
+  .news-text{
     height:530px;
+    .news-indicators{
+      position: absolute;
+      top: 90px;
+      left: 40px;
+      bottom: 404px;
+    }
     h4{
       margin-top: 25px !important;
     }
-    .news-article-description{
-      margin-top: 40px !important;
-      .new-article-description{
+    .news-description{
+      margin-top: 30px !important;
+      .new-description{
         h3{
-          text-align: center !important;
           padding-top: 5px;
           margin-bottom: 25px;
         }
@@ -292,19 +322,26 @@
 }
 @media only screen and(max-width: 767px){
   .news-article-slider{
-    background: #f495b3;
-    .news-article-text{
+    background: #ff759f;
+    .left{
+      top:150px;
+    }
+    .right{
+      top:150px;
+    }
+    .news-text{
       h4{
         text-align: center;
         margin-top: 28px !important;
       }
-      .news-article-description{
+      .news-indicators{
+        position: absolute;
+        top: 90px;
+        left: 40px;
+        bottom: 404px;
+      }
+      .news-description{
         min-height: 290px;
-        .new-article-description{
-          h3{
-            text-align: center;
-          }
-        }
       }
       a{
         display: block;
@@ -330,8 +367,11 @@
     .carousel-inner{
       height:320px !important;
     }
-    .slider-control{
-      text-align: center;
-    }
   }
 }
+
+
+
+
+
+

@@ -3,11 +3,14 @@
     margin-top: 60px;
     padding-top: 170px;
     .head{
-      width: 60px;
+      width: 72px;
       height: 35px;
       margin:0px auto;
       margin-bottom: 50px;
-      background: url(../img/about-header.png) no-repeat center;
+      p{
+        font-size:30px;
+        font-family: 'CoreSans';
+      }
     }
     .text{
       margin:0px auto;

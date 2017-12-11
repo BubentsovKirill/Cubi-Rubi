@@ -37,7 +37,7 @@ gulp.task('js',function(){
 });
 
 gulp.task('css',['scss'], function(){
-	return gulp.src('app/css/style.css')
+	return gulp.src(['app/libs/hover/css/hover.css','app/css/style.css'])
 	.pipe(sourcemaps.init())
 	.pipe(concat('style.min.css'))
 	.pipe(csso())

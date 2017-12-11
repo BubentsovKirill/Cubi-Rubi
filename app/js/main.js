@@ -94,17 +94,45 @@ var Layout = function(){
        var searchButton = $('.search-button');
        searchButton.on('click', function(){
            if(searchBlock.hasClass('hidden')){
+               document.querySelector('body').style.overflow = 'hidden';
                searchBlock.removeClass('hidden').addClass('visible');
-               searchButton.css('background-color','#f0a720');
+               searchButton.removeClass('search-button');
+               searchButton.addClass('search-button-active');
            }
            else{
+               document.querySelector('body').style.overflow = 'auto';
                searchBlock.removeClass('visible').addClass('hidden');
-               searchButton.css('background-color','#f2f2f2');
+                 searchButton.removeClass('search-button-active');
+               searchButton.addClass('search-button');
            }
+       })
+   };
+
+   var mobileCatalog = function(){
+       var fadeButton = $('#fadeButton');
+       var fadeBlock = $('#fadeBlock');
+
+       fadeButton.on('click', function(){
+           fadeBlock.fadeToggle(200);
+       })
+   };
+
+   var catalogBlock = function(){
+       var fadeBlock = $('.catalog-items');
+       var fadeButton = $('#showButton');
+
+       fadeButton.on('click', function(){
+           fadeBlock.fadeToggle(200)
        })
    }
 
    return {
+       initCatalogBlock : function(){
+           catalogBlock();
+       },
+       initMobileCatalog : function(){
+           mobileCatalog();
+       },
        initOpenSearchBlock: function(){
            openSearchBlock();
        },
@@ -124,6 +152,8 @@ var Layout = function(){
            showEnterForm()
        },
        init: function(){
+            this.initCatalogBlock();
+            this.initMobileCatalog();
             this.initOpenSearchBlock();
             this.initOpenMobileMenu();
             this.initCloseRegistationFrom();

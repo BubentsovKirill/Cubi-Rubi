@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery-ui": "^1.12.1",
-    "ion.rangeSlider": "^2.2.0"
+    "ion.rangeSlider": "^2.2.0",
+    "hover": "^2.1.1"
   }
 }

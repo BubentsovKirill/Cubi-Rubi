@@ -1,5 +1,4 @@
 .subscribe-homepage{
-  margin-top: 50px;
   background: url(../img/subscribe-bg-homepage.png) repeat;
   position: relative;
   p{
@@ -45,6 +44,9 @@
         border-radius: 20px;
         border: none;
         color: #fff;
+        &:hover{
+          background: #5479a5;
+        }
       }
     }
   }
@@ -115,7 +117,6 @@
 }
 @media only screen and(max-width: 767px) {
   .subscribe-homepage{
-    margin-top: 50px;
     h3{
       margin-top:140px;
     }

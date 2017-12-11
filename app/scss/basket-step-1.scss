@@ -112,15 +112,15 @@
     .step-3{
       .step-title{
         &:before{
-          position: absolute;
-          content:'';
-          display: block;
-          height:30px;
-          width:30px;
-          left: 37px;
-          top: 5px;
-          background: url(../img/svg/cubi_icon_30_not-pick.svg) no-repeat -14px -4px;
-          background-size:170%;
+            position: absolute;
+            content: '';
+            display: block;
+            height: 30px;
+            width: 26px;
+            left: 44px;
+            top: 5px;
+            background: url(../img/svg/cubi_icon_60_not_pick.svg) no-repeat -5px 1px;
+            background-size: 135%;
         }
       }
     }
@@ -135,11 +135,11 @@
           content:'' !important;
           display: block !important;
           height:30px !important;
-          width:30px !important;
-          left: 37px !important;
+          width:26px !important;
+          left: 44px !important;
           top: 5px !important;
-          background: url(../img/svg/cubi_icon_30.svg) no-repeat -14px -4px !important;
-          background-size:170% !important;
+          background: url(../img/svg/cubi_icon_60.svg) no-repeat -5px 1px !important;
+          background-size:135% !important;
         }
       }
     }
@@ -180,9 +180,10 @@
           font-size:20px;
         }
         input[type="number"]{
-          width: 40px;
+          width: 50px;
           padding-left:5px;
-          height: 30px;
+          height: 40px;
+          font-size:20px;
         }
         span{
           padding-left: 50px;
@@ -198,6 +199,14 @@
           margin-top:8px;
         }
       }
+    }
+    #total{
+       font-size: 24px;
+        font-family: 'Regular';
+        right: 100px;
+        padding-right: 35px;
+        margin-top: 20px;
+        text-align: right;
     }
     .promo-code{
       margin-top: 30px;
@@ -221,11 +230,14 @@
         width: 150px;
         height: 40px;
         background: #eda520;
-        border:none;
+        border: 1px solid #e0950f;
         -webkit-border-radius:10px;
         -moz-border-radius:10px;
         border-radius:10px;
         color: #ffffff;
+        &:hover{
+          background: #e79707;
+        }
       }
     }
     .discount{
@@ -330,6 +342,10 @@
       -webkit-border-radius:25px;
       -moz-border-radius:25px;
       border-radius:25px;
+      &:hover{
+        color: #fff;
+        background: #f0a720;
+      }
     }
   }
   .step-1-block-login{
@@ -368,9 +384,10 @@
           font-size:20px;
         }
         input[type="number"]{
-          width: 40px;
+          width: 50px;
           padding-left:5px;
-          height: 30px;
+          height: 40px;
+          font-size:20px;
         }
         span{
           padding-left: 50px;
@@ -402,18 +419,21 @@
         font-size:22px;
         padding:0 5px;
       }
-      input[type="button"]{
+       input[type="button"]{
         vertical-align: middle;
         font-size:17px;
         font-family: "Light";
         width: 150px;
         height: 40px;
         background: #eda520;
-        border:none;
+        border: 1px solid #e0950f;
         -webkit-border-radius:10px;
         -moz-border-radius:10px;
         border-radius:10px;
         color: #ffffff;
+        &:hover{
+          background: #e79707;
+        }
       }
     }
     .discount{
@@ -507,7 +527,7 @@
         color: #ff826b;
       }
     }
-    input[type="submit"]{
+   input[type="submit"]{
       display: block;
       margin:0px auto;
       font-family: "Light";
@@ -518,6 +538,10 @@
       -webkit-border-radius:25px;
       -moz-border-radius:25px;
       border-radius:25px;
+      &:hover{
+        color: #fff;
+        background: #f0a720;
+      }
     }
   }
   @media only screen and(max-width: 1199px) and (min-width: 992px){
@@ -528,6 +552,9 @@
       background-color: #ffffff;
       form{
         padding-bottom: 50px;
+      }
+      #total{
+        text-align: right
       }
       .item-in-basket{
         border-bottom: 1px solid #e7e7e7;
@@ -928,6 +955,9 @@
       background-color: #ffffff;
       form{
         padding-bottom: 50px;
+      }
+      #total{
+        text-align: right
       }
       .item-in-basket{
         border-bottom: 1px solid #e7e7e7;
@@ -1440,7 +1470,7 @@
             width:30px;
             left: 37px;
             top: 5px;
-            background: url(../img/svg/cubi_icon_30_not-pick.svg) no-repeat -14px -4px;
+            background: url(../img/svg/cubi_icon_60_not-pick.svg) no-repeat -14px -4px;
             background-size:170%;
           }
         }
@@ -1460,7 +1490,7 @@
             width:30px !important;
             left: 37px !important;
             top: 5px !important;
-            background: url(../img/svg/cubi_icon_30.svg) no-repeat -14px -4px !important;
+            background: url(../img/svg/cubi_icon_60.svg) no-repeat -14px -4px !important;
             background-size:170% !important;
           }
         }
@@ -1543,6 +1573,9 @@
             border:none;
           }
         }
+      }
+      #total{
+        text-align: center
       }
       .promo-code{
         margin-top: 30px;

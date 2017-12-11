@@ -43,6 +43,10 @@
         -webkit-border-radius:20px;
         -moz-border-radius:20px;
         border-radius:20px;
+        &:hover{
+          background: #f0a720;
+          color: #fff;
+        }
       }
     }
   }
@@ -84,5 +88,20 @@
   }
   .item-line-bottom{
     margin-top:80px;
+  }
+}
+
+#news-slider{
+  .hvr-radial-out{
+    bottom: 0 !important;
+    color: #f0a720;
+    background: 0 0 !important;
+  }
+  .hvr-radial-out:hover{
+    background: red;
+    color: #fff!important;
+  }
+  .hvr-radial-out:before{
+    background: #f0a720;
   }
 }

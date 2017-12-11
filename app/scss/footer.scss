@@ -14,7 +14,7 @@
     text-decoration: none;
   }
   .adress{
-    margin-top: 45px;
+    margin-top: 50px;
     h4{
       margin-bottom:30px;
       font-size:25px;
@@ -27,25 +27,11 @@
     }
 
   }
-  .map-road{
-    margin-top:30px;
-    height:25px;
-    a{
-      text-decoration: none;
-      margin-left: 20px;
-      color: #42bda5;
-      border-bottom:1px solid #42bda5;
-      position: relative;
-      &:after{
-        position: absolute;
-        top: -9px;
-        left: -30px;
-        content: '';
-        width: 40px;
-        height: 40px;
-        display: block;
-        background: url(../img/svg/cubi_icon_51_footer.svg) no-repeat 0 0;
-      }
+  .cards{
+    margin-top: 80px;
+    li{
+      margin-right: 5px;
+      display: inline-block;
     }
   }
   .social-link{
@@ -99,9 +85,53 @@
       }
     }
   }
+  @media only screen and(max-width: 991px) and (min-width: 768px){
+    .left{
+      text-align: center;
+      .cards{
+        margin-top: 30px;
+      }
+    }
+    .right{
+      .social-link{
+        text-align: center;
+        margin-top: 30px;
+      }
+      table{
+        margin:0px auto;
+        td{
+          text-align: center;
+        }
+      }
+      .our-project{
+        text-align: center;
+        a:after{
+          left:-50px;
+        }
+      }
+    }
+  }
   @media only screen and(max-width: 767px){
-    .social-link{
-      margin-top:45px;
+    .left{
+      text-align: center;
+      .cards{
+        margin-top: 30px;
+      }
+    }
+    .right{
+      .social-link{
+        text-align: center;
+        margin-top: 30px;
+      }
+      table{
+        margin:0px auto;
+      }
+      .our-project{
+        text-align: center;
+        a:after{
+          left:-50px;
+        }
+      }
     }
   }
   table{

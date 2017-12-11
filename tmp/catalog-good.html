@@ -28,7 +28,10 @@
             </a></li>
             <li><a href="#">о cubirubi</a></li>
             <li><a href="#">отзывы</a></li>
-            <li><a href="#">скидки</a></li>
+            <li>
+                <span></span>
+                <a href="#">скидки</a>
+            </li>
             <li class="logo-desktop"><a href="#"><img src="img/cubi_logo.svg" alt=""></a></li>
             <li><a href="#">новости</a></li>
             <li><a href="#">контакты</a></li>
@@ -104,7 +107,6 @@
                     <a href="#">Особое от CubiRubi</a>
                 </div>
             </div>
-            <div class="triangle"></div>
         </div>
         <span class="search-button"></span>
         <a href="#" class="enter-account hidden-sm hidden-xs">Войти</a>
@@ -128,7 +130,10 @@
                 <li><a href="#">магазин</a></li>
                 <li><a href="#">о cubirubi</a></li>
                 <li><a href="#">отзывы</a></li>
-                <li><a href="#">скидки</a></li>
+                <li>
+                    <span></span>
+                    <a href="#">скидки</a>
+                </li>
                 <li><a href="#">новости</a></li>
                 <li><a href="#">контакты</a></li>
             </ul>
@@ -138,7 +143,7 @@
 </div>
 <!--catalog-->
 <div class="catalog-page">
-    <div class="container catalog-items">
+    <div class="container catalog-items" style="display: none">
         <ul>
             <li>
                 <a href="#">Блокноты, Eжедневники</a>
@@ -202,7 +207,9 @@
             </li>
         </ul>
     </div>
+    <div id="showButton"></div>
 </div>
+<div style="height: 50px"></div>
 <div class="container good-block">
     <div class="row">
         <div class="col-md-6">
@@ -241,7 +248,11 @@
             </ol>
         </div>
         <div class="col-md-6 description">
-            <p class="breadcrumps"><span>CUBIRUBI</span> / <span>Eжедневники, блокноты</span> / <span class="good-title">Скетчбук Forest of mist</span></p>
+            <p class="breadcrumps">
+                <span><a href="#" class="link">Главная</a></span> /
+                <span><a href="#" class="link">Eжедневники, блокноты</a></span> /
+                <span class="good-title">Forest of mist</span>
+            </p>
             <div class="good">
                 <div class="icon" style="background: url(img/svg/SVG_catalog/cubi_icon_14.svg) no-repeat center"></div>
                 <h2>Скетчбук Forest of Mist</h2>
@@ -255,12 +266,12 @@
                 <span class="not-pick"></span>
             </div>
             <div class="good-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, dolore ex expedita impedit iste laboriosam, laborum molestias mollitia pariatur quae qui ratione, reprehenderit sunt? A ad architecto aspernatur aut beatae ea eaque eligendi exercitationem itaque, labore laudantium magni, modi possimus, praesentium quod suscipit veritatis. Nesciunt officia sint totam. Ab beatae, commodi doloribus exercitationem harum illo iste laudantium minima mollitia nisi nostrum obcaecati quod rem sapiente sed sit tempore, vel veritatis vero voluptates. Adipisci cupiditate doloribus error, esse est fugiat illo, incidunt ipsa minus molestiae officia, officiis porro provident quam quasi quisquam quo ratione repellat reprehenderit sed temporibus vel voluptates voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores autem corporis ea enim, eum explicabo maiores placeat possimus reprehenderit voluptatibus. Dicta facilis laboriosam nobis officiis.</p>
             </div>
             <form action="">
                 <span class="total">18.50р</span>
                 <label for="amount">Кол-во</label>
-                <input type="number" id="amount" value="1">
+                <input type="number" id="amount" value="1" min="1">
                 <span class="balance">Осталось 10 шт.</span>
                 <input type="submit" value="В корзину">
                 <a href="#" class="like-not-pick like like-goods"></a>
@@ -292,13 +303,6 @@
             <div class="reviews-item-content">
                 <span class="date">25 Фев 2017</span>
                 <h3 class="name">Петр Петрович</h3>
-                <div class="rating">
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                </div>
                 <div class="reviews-item-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea in ipsam odit quod sequi vero? A autem consequatur eligendi facilis fuga natus nemo nesciunt nostrum quo voluptas. Corporis debitis, dignissimos dolorum error facere fugit iusto labore, maxime odit pariatur, quos repellendus? Aliquam, at consequatur consequuntur corporis debitis deleniti excepturi, harum hic in natus numquam obcaecati odio optio pariatur quo sint tempora unde, ut veritatis voluptates? Asperiores dolores quae voluptates. Assumenda facere, facilis fuga magni maiores modi numquam obcaecati odit officiis optio pariatur possimus praesentium, quas quidem sequi tempore temporibus tenetur totam veritatis voluptas. Blanditiis debitis minima nulla totam unde voluptatem.
                 </div>
@@ -317,13 +321,6 @@
             <div class="reviews-item-content">
                 <span class="date">25 Фев 2017</span>
                 <h3 class="name">Петр Петрович</h3>
-                <div class="rating">
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                    <span class="pick"></span>
-                    <span class="not-pick"></span>
-                    <span class="not-pick"></span>
-                </div>
                 <div class="reviews-item-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea in ipsam odit quod sequi vero? A autem consequatur eligendi facilis fuga natus nemo nesciunt nostrum quo voluptas. Corporis debitis, dignissimos dolorum error facere fugit iusto labore, maxime odit pariatur, quos repellendus? Aliquam, at consequatur consequuntur corporis debitis deleniti excepturi, harum hic in natus numquam obcaecati odio optio pariatur quo sint tempora unde, ut veritatis voluptates? Asperiores dolores quae voluptates. Assumenda facere, facilis fuga magni maiores modi numquam obcaecati odit officiis optio pariatur possimus praesentium, quas quidem sequi tempore temporibus tenetur totam veritatis voluptas. Blanditiis debitis minima nulla totam unde voluptatem.
                 </div>
@@ -342,14 +339,6 @@
                 <form id="comment-form" action="">
                     <input type="text" required="required" placeholder="Фамилия Имя">
                     <input type="email" required="required" placeholder="Email">
-                    <p class="rating-title">Ваша оценка</p>
-                    <div class="rating">
-                        <span class="pick" data-rating="1"></span>
-                        <span class="not-pick" data-rating="2"></span>
-                        <span class="not-pick" data-rating="3"></span>
-                        <span class="not-pick" data-rating="4"></span>
-                        <span class="not-pick" data-rating="5"></span>
-                    </div>
                     <input type="number" class="hidden" name="rating" id="rating" class="" value="1">
                     <textarea name="" required="required" placeholder="Отзыв"></textarea>
                     <input type="submit" value="Отравить">
@@ -470,24 +459,39 @@
 <div class="container-fluid footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
-                <a href="tel:+3752900000" class="phone-number">+375290000000</a>
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 left">
+                <a href="tel:+3752900000" class="phone-number" style="text-decoration: none">+375290000000</a>
                 <ul class="adress">
-                    <h4>Наш адрес</h4>
+
                     <li> г. Минск, ст.м. Пл. Победы,
                         <br> пр. Независимости, 44,
                         <br>вход со двора Вечернего Минска
                     </li>
                     <br>
-                    <li>  Мы открыты с 12:00 до 22:00 <br>
-                        без выходных
+                    <li> Открыты ежедневно с 12:00 до 22:00
+                        <br>
+                        без обеда и выходных.
                     </li>
                 </ul>
-                <div class="map-road">
-                    <a href="#">Показать карту проезда</a>
-                </div>
+                <ul class="cards">
+                    <li>
+                        <img src="img/icon/cards/AE.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/PSI.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MAESTRO.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MASTER.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/BELCARD.gif" alt="">
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 right">
                 <ul class="social-link">
                     <li>
                         <a href="#" class="fb"></a>
@@ -524,27 +528,20 @@
                     </tr>
                 </table>
                 <div class="our-project">
-                    <a href="#">Наш проект: Чайная почта</a>
+                    <a href="#">Наш чайный проект - Чайная почта</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <ul class="pay-service">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+        <p style="text-align: center; margin-top: 60px; color: #c5cad2">Частное предприятие "РубиВейв", УНП 192259405, свидетельство выдано Мингорисполкомом 17.04.14, зарегистрирован в
+            Торговом реестре Республики Беларусь 02.03.15, регистрационный номер 209310</p>
     </div>
+
 </div>
 <form action="#" class="enter hidden">
     <div>
         <span class="close-enter-button"></span>
         <h3>Войти</h3>
-        <input type="text" placeholder="Логин или Email">
+        <input type="text" placeholder="Email">
         <br>
         <input type="password" placeholder="Пароль" />
         <input type="submit" value="Войти">
@@ -579,7 +576,7 @@
     <p>Уже есть аккаунт ? <a href="#" class="enter-open">Войти</a></p>
 </form>
 <form action="#" class="search-form hidden">
-    <input type="text" placeholder="Поиск">
+    <input type="text" placeholder="Что будем искать, хозяин ?">
 </form>
 <script src="js/js.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
@@ -587,7 +584,6 @@
     jQuery(document).ready(function(){
         Layout.init();
         GoodLike.init();
-        Rating.init();
         RotateLoadMore.init();
         $('#similar-goods').slick(
             {

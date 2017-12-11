@@ -2,7 +2,7 @@
   background: url(../img/news-commnet-bg.png) no-repeat center;
   background-size: cover;
   form{
-    padding: 0px 83px;
+    padding: 30px 10px 0px 10px;
     padding-top: 50px;
     .rating{
       span{
@@ -29,7 +29,7 @@
       font-family: "Light";
     }
     input[type="text"],input[type="email"]{
-      width:280px;
+      width:100% !important;
       height:20px;
       height:40px;
       padding:0px 5px;
@@ -38,6 +38,7 @@
     }
     input[type="text"]{
       margin-right: 20px;
+      margin-bottom: 20px;
     }
     input[type="submit"]{
       width:180px;
@@ -56,7 +57,7 @@
       font-family: "Light";
       border: none;
       width:100%;
-      height:140px;
+      height:120px;
       resize: none;
       padding:5px;
       margin-bottom: 30px;

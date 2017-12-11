@@ -1,5 +1,4 @@
 <!doctype html>
-<!doctype html>
 <html lang="en">
 <head>
     <link rel="icon" sizes="12x12" href="img/svg/cubi_title_12x12.png">
@@ -26,7 +25,10 @@
             </a></li>
             <li><a href="#">о cubirubi</a></li>
             <li><a href="#">отзывы</a></li>
-            <li><a href="#">скидки</a></li>
+            <li>
+                <span></span>
+                <a href="#">скидки</a>
+            </li>
             <li class="logo-desktop"><a href="#"><img src="img/cubi_logo.svg" alt=""></a></li>
             <li><a href="#">новости</a></li>
             <li><a href="#">контакты</a></li>
@@ -102,7 +104,6 @@
                     <a href="#">Особое от CubiRubi</a>
                 </div>
             </div>
-            <div class="triangle"></div>
         </div>
         <span class="search-button"></span>
         <a href="#" class="enter-account hidden-sm hidden-xs">Войти</a>
@@ -126,7 +127,10 @@
                 <li><a href="#">магазин</a></li>
                 <li><a href="#">о cubirubi</a></li>
                 <li><a href="#">отзывы</a></li>
-                <li><a href="#">скидки</a></li>
+                <li>
+                    <span></span>
+                    <a href="#">скидки</a>
+                </li>
                 <li><a href="#">новости</a></li>
                 <li><a href="#">контакты</a></li>
             </ul>
@@ -139,8 +143,12 @@
     <div class="row">
         <div class="col-md-12">
             <h1>скидочные карты от cubirubi</h1>
-            <p>Еще нет аккаунда, зарегистрируйте и оформите свою <br>
-            первую карту онлайн</p>
+            <p>У нас действует накопительная система скидок. <br>
+               Cумма покупок суммируется, c ростом суммы растет и ваша скидка. <br>
+               При сумме покупок от 50 рублей, мы выдаем карту с Мистером Бобром на 5%.<br>
+               При сумме покупок от 100 рублей Вас ждет Индеец Панда и карта на 10%.<br>
+               При сумме покупок от 150 рублей Жираф Жирафыч на карточке 15%.
+            </p>
         </div>
     </div>
 </div>
@@ -183,24 +191,39 @@
 <div class="container-fluid footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
-                <a href="tel:+3752900000" class="phone-number">+375290000000</a>
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 left">
+                <a href="tel:+3752900000" class="phone-number" style="text-decoration: none">+375290000000</a>
                 <ul class="adress">
-                    <h4>Наш адрес</h4>
+
                     <li> г. Минск, ст.м. Пл. Победы,
                         <br> пр. Независимости, 44,
                         <br>вход со двора Вечернего Минска
                     </li>
                     <br>
-                    <li>  Мы открыты с 12:00 до 22:00 <br>
-                        без выходных
+                    <li> Открыты ежедневно с 12:00 до 22:00
+                        <br>
+                        без обеда и выходных.
                     </li>
                 </ul>
-                <div class="map-road">
-                    <a href="#">Показать карту проезда</a>
-                </div>
+                <ul class="cards">
+                    <li>
+                        <img src="img/icon/cards/AE.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/PSI.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MAESTRO.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/MASTER.gif" alt="">
+                    </li>
+                    <li>
+                        <img src="img/icon/cards/BELCARD.gif" alt="">
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+            <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 right">
                 <ul class="social-link">
                     <li>
                         <a href="#" class="fb"></a>
@@ -237,27 +260,20 @@
                     </tr>
                 </table>
                 <div class="our-project">
-                    <a href="#">Наш проект: Чайная почта</a>
+                    <a href="#">Наш чайный проект - Чайная почта</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <ul class="pay-service">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+        <p style="text-align: center; margin-top: 60px; color: #c5cad2">Частное предприятие "РубиВейв", УНП 192259405, свидетельство выдано Мингорисполкомом 17.04.14, зарегистрирован в
+            Торговом реестре Республики Беларусь 02.03.15, регистрационный номер 209310</p>
     </div>
+
 </div>
 <form action="#" class="enter hidden">
     <div>
         <span class="close-enter-button"></span>
         <h3>Войти</h3>
-        <input type="text" placeholder="Логин или Email">
+        <input type="text" placeholder="Email">
         <br>
         <input type="password" placeholder="Пароль" />
         <input type="submit" value="Войти">
@@ -292,7 +308,7 @@
     <p>Уже есть аккаунт ? <a href="#" class="enter-open">Войти</a></p>
 </form>
 <form action="#" class="search-form hidden">
-    <input type="text" placeholder="Поиск">
+    <input type="text" placeholder="Что будем искать, хозяин ?">
 </form>
 <script src="js/js.min.js"></script>
 <script>

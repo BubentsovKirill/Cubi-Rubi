@@ -1,3 +1,28 @@
+.account-tabs{
+  input[type="checkbox"]{
+     display: none;
+  }
+  label{
+    margin-left: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+  }
+  label:after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -3px;
+    left: -40px;
+    display: block;
+    border: 1px solid #cdcccb;
+  }
+  input[type="checkbox"]:checked + label:after{
+    background: url(../img/svg/cubi_icon_29.svg) no-repeat -11px -1px;
+    background-size: 150%;
+  }
+}
 
 
 @media only screen and(min-width: 1200px){
@@ -111,7 +136,7 @@
         border-bottom: 1px solid #ffffff;
       }
       >li:nth-child(2).active{
-        background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 10px 8px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 10px 8px;
         background-size:15%;
         border-bottom: 1px solid #ffffff;
       }
@@ -203,40 +228,55 @@
           }
           .title{
             left: 120px;
-            top: 10px;
+            top: 20px;
             position: absolute;
             font-size: 20px;
             color: inherit;
           }
+          .link{
+            position: absolute;
+            left: 120px;
+            top: 60px;
+            font-size: 16px;
+            color: #6e6e6f;
+            text-decoration: underline;
+            &:hover{
+              color: #f5b958;
+            }
+          }
           .amount{
             position: absolute;
             font-size: 16px;
-            top:60px;
-            left:120px;
+            top:42px;
+            right:360px;
           }
           input[type="number"]{
             position: absolute;
             width: 50px;
-            height: 29px;
+            font-size: 20px;
+            height: 40px;
             padding-left: 5px;
-            top: 58px;
-            left: 180px;
+            top: 32px;
+            right: 295px;
           }
           .on-cart{
             width:125px;
             height:40px;
             text-align: center;
-            border: none;
+             border: 1px solid #e0950f;
             background: #f5b958;
-            left: 450px;
+            right: 140px;
             position: absolute;
             top: 31px;
             color: #fff;
             border-radius: 25px;
+            &:hover{
+               background: #e79707;
+            }
           }
           .total{
             top:34px;
-            right:90px;
+            right:60px;
             position: absolute;
             font-size: 24px;
             font-family: 'Light';
@@ -343,6 +383,10 @@
         background: none;
         margin-top: 20px;
         border-radius: 25px;
+        &:hover{
+          background: #f5b958;
+          color: #fff;
+        }
       }
       span{
         color: #d6d6d6;
@@ -460,7 +504,7 @@
         border-bottom: 1px solid #ffffff;
       }
       >li:nth-child(2).active{
-        background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 10px 8px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 10px 8px;
         background-size:15%;
         border-bottom: 1px solid #ffffff;
       }
@@ -552,24 +596,36 @@
           }
           .title{
             left: 120px;
-            top: 10px;
+            top: 20px;
             position: absolute;
             font-size: 20px;
             color: inherit;
           }
+          .link{
+            position: absolute;
+            left: 120px;
+            top: 60px;
+            font-size: 16px;
+            color: #6e6e6f;
+            text-decoration: underline;
+            &:hover{
+              color: #f5b958;
+            }
+          }
           .amount{
             position: absolute;
             font-size: 16px;
-            top:60px;
-            left:120px;
+            top:42px;
+            right:42%;
           }
           input[type="number"]{
             position: absolute;
             width: 50px;
-            height: 29px;
+            font-size: 20px;
+            height: 40px;
             padding-left: 5px;
-            top: 58px;
-            left: 180px;
+            top: 32px;
+            right: 35%;
           }
           .on-cart{
             width:125px;
@@ -577,7 +633,7 @@
             text-align: center;
             border: none;
             background: #f5b958;
-            left: 600px;
+            right: 125px;
             position: absolute;
             top: 31px;
             color: #fff;
@@ -585,7 +641,7 @@
           }
           .total{
             top:34px;
-            right:90px;
+            right:50px;
             position: absolute;
             font-size: 24px;
             font-family: 'Light';
@@ -804,7 +860,7 @@
 
       }
       >li:nth-child(2).active{
-        background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 10px 8px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 10px 8px;
         background-size:10%;
 
       }
@@ -907,16 +963,25 @@
           .amount{
             position: absolute;
             font-size: 16px;
-            top:60px;
-            left:120px;
+            top:43px;
+            right:330px;
           }
           input[type="number"]{
             position: absolute;
             width: 50px;
-            height: 29px;
+            height: 40px;
             padding-left: 5px;
-            top: 58px;
-            left: 180px;
+            top: 33px;
+            right: 265px;
+            font-size: 20px;
+          }
+          .link{
+              position: absolute;
+              left: 120px;
+              top: 60px;
+              font-size: 16px;
+              color: #6e6e6f;
+              text-decoration: underline;
           }
           .on-cart{
             width:125px;
@@ -924,15 +989,15 @@
             text-align: center;
             border: none;
             background: #f5b958;
-            left: 400px;
+            right: 125px;
             position: absolute;
-            top: 50px;
+            top: 33px;
             color: #fff;
             border-radius: 25px;
           }
           .total{
             top:34px;
-            right:90px;
+            right:50px;
             position: absolute;
             font-size: 24px;
             font-family: 'Light';
@@ -1019,18 +1084,18 @@
       }
       .one-on-line{
         padding:0px 5px;
-        width:45%;
+        width:100%;
         height:40px;
         margin-bottom:30px;
       }
       .two-on-line{
         padding:0px 5px;
-        width:45%;
+        width:100%;
         height:40px;
         margin-bottom:30px;
       }
       .mg-r{
-        margin-right: 71px;
+        margin-right: 0;
       }
       input[type="submit"]{
         width:200px;
@@ -1155,7 +1220,7 @@
 
       }
       >li:nth-child(2).active{
-        background: url(../img/svg/cubi_icon_40_pick.svg) no-repeat 10px 8px;
+        background: url(../img/svg/cubi_icon_40_hover.svg) no-repeat 10px 8px;
         background-size:10%;
 
       }
@@ -1198,7 +1263,7 @@
           border-bottom: 1px solid #d6d6d6;
           position: relative;
           img{
-            width:100%;
+            margin: 0px auto;
             display: block;
             margin-bottom: 20px;
           }
@@ -1243,18 +1308,25 @@
     .block-2{
       ul{
         .wish-item{
-          padding: 10px 0;
+          padding: 10px 0 50px 0;
           border-bottom: 1px solid #d6d6d6;
           position: relative;
           img{
-            width:100%;
+            display: block;
+            margin: 0px auto;
             margin-bottom: 100px;
           }
           .title{
-            bottom: 60px;
+            bottom: 100px;
             position: absolute;
             font-size: 20px;
             color: inherit;
+          }
+          .link{
+            text-decoration: none;
+            color: #6e6e6f;
+            bottom: 65px;
+            position: absolute;
           }
           .amount{
             position: absolute;
@@ -1264,9 +1336,10 @@
           input[type="number"]{
             position: absolute;
             width: 50px;
-            height: 29px;
+            height: 40px;
             padding-left: 5px;
             bottom: 16px;
+            font-size: 20px;
             left: 61px;
           }
           .on-cart{
@@ -1282,8 +1355,8 @@
             border-radius: 25px;
           }
           .total{
+            right: 37%;
             bottom: 14px;
-            width:100%;
             text-align: center;
             position: absolute;
             font-size: 24px;
@@ -1297,8 +1370,7 @@
             border: none;
             right: 0;
             position: absolute;
-            bottom: 58px;
-
+            bottom: 100px;
           }
         }
       }
@@ -1372,18 +1444,18 @@
       }
       .one-on-line{
         padding:0px 5px;
-        width:45%;
+        width:100%;
         height:40px;
         margin-bottom:30px;
       }
       .two-on-line{
         padding:0px 5px;
-        width:45%;
+        width:100%;
         height:40px;
         margin-bottom:30px;
       }
       .mg-r{
-        margin-right: 71px;
+        margin-right: 0;
       }
       input[type="submit"]{
         width:200px;

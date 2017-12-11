@@ -1,5 +1,5 @@
 .enter{
-  border:1px solid #6e6e6f;
+  box-shadow: 1px 1px 21px 0px black;
   left:0;
   right:0;
   margin:0px auto;
@@ -33,9 +33,12 @@
     width:280px;
     margin: 0 auto;
     display: block;
+    border: 1px solid #e6e6e6 !important;
     font-family: "LightIt";
-    border:1px solid #6e6e6f;
     background: #fff !important;
+    &:hover{
+      border: 1px solid #f0a720 !important;
+    }
   }
   input[type="text"]{
     margin-bottom: 15px;
@@ -124,7 +127,7 @@
 
 }
 .registration{
-  border:1px solid #6e6e6f;
+  box-shadow: 1px 1px 21px 0px black;
   left:0;
   right:0;
   margin:0px auto;
@@ -160,8 +163,11 @@
     margin-bottom: 15px;
     display: block;
     font-family: "LightIt";
-    border:1px solid #6e6e6f;
+    border: 1px solid #e6e6e6 !important;
     background: #fff !important;
+    &:hover{
+      border: 1px solid #f0a720 !important;
+    }
   }
   input[type="submit"]{
     display: block;
@@ -199,7 +205,7 @@
   }
   .search-form{
     position: fixed;
-    top: 90px;
+    top: 45%;
     width: 60%;
     display: block;
     margin: 0px auto;
@@ -207,24 +213,31 @@
     left: 0;
     z-index: 2000;
     input{
-      padding:0 10px;
+      -webkit-border-radius:40px;
+      -moz-border-radius:40px;
+      border-radius:40px;
+      padding:0 20px;
       width: 100%;
       height: 80px;
       border: none;
-      background: rgba(242, 242, 242,0.9);
-      font-size: 30pt;
+      background:#fff;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
-      text-align: center;
+      text-align: left;
+      font-style: italic;
+      border: 2px solid #ededed;
     }
     input::-moz-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
+      font-style: italic;
       color: #000;
       font-family: "Light";
     }
     input::-webkit-input-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
       color: #000;
+      font-style: italic;
       font-family: "Light";
     }
   }
@@ -238,7 +251,7 @@
   }
   .search-form{
     position: fixed;
-    top: 90px;
+    top: 45%;
     width: 60%;
     display: block;
     margin: 0px auto;
@@ -246,23 +259,28 @@
     left: 0;
     z-index: 2000;
     input{
+      -webkit-border-radius:40px;
+      -moz-border-radius:40px;
+      border-radius:40px;
       padding:0 10px;
       width: 100%;
       height: 80px;
-      border: none;
-      background: rgba(242, 242, 242,0.9);
-      font-size: 30pt;
+      border: 2px solid #ededed;
+      background: #fff;
+      font-size: 20pt;
+      font-style: italic;
+      border: 2px solid #ededed;
       color: #000;
       font-family: "Light";
-      text-align: center;
+      text-align: left;
     }
     input::-moz-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
     input::-webkit-input-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
@@ -277,7 +295,7 @@
   }
   .search-form{
     position: fixed;
-    top: 90px;
+    top: 45%;
     width: 80%;
     display: block;
     margin: 0px auto;
@@ -285,23 +303,27 @@
     left: 0;
     z-index: 2000;
     input{
+      -webkit-border-radius:40px;
+      -moz-border-radius:40px;
+      border-radius:40px;
       padding:0 10px;
       width: 100%;
       height: 80px;
       border: none;
-      background: rgba(242, 242, 242,0.9);
-      font-size: 30pt;
+      background: #fff;
+      font-size: 20pt;
       color: #000;
+      border: 2px solid #ededed;
       font-family: "Light";
-      text-align: center;
+      text-align: left;
     }
     input::-moz-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
     input::-webkit-input-placeholder{
-      font-size: 30pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
@@ -333,7 +355,7 @@
   }
   .search-form{
     position: fixed;
-    top: 90px;
+    top: 45%;
     width: 100%;
     display: block;
     margin: 0px auto;
@@ -341,26 +363,37 @@
     left: 0;
     z-index: 2000;
     input{
+      border: 2px solid #ededed;
+      -webkit-border-radius:40px;
+      -moz-border-radius:40px;
+      border-radius:40px;
       padding:0 10px;
       width: 100%;
       height: 55px;
-      border: none;
-      background: rgba(242, 242, 242,0.9);
-      font-size: 25pt;
+      background: #fff;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
-      text-align: center;
+      text-align: left;
     }
     input::-moz-placeholder{
-      font-size: 25pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
     input::-webkit-input-placeholder{
-      font-size: 25pt;
+      font-size: 20pt;
       color: #000;
       font-family: "Light";
     }
   }
+}
+#total{
+   font-size: 24px;
+    font-family: 'Regular';
+    right: 100px;
+    padding-right: 35px;
+    margin-top: 20px;
+    text-align: right;
 }
 

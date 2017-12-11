@@ -1,4 +1,49 @@
 .home-page-news{
+  .hvr-radial-out{
+    bottom: 0 !important;
+    color: #f0a720;
+    background: 0 0 !important;
+  }
+  .hvr-radial-out:hover{
+    background: red;
+    color: #fff!important;
+  }
+  .hvr-radial-out:before{
+    background: #f0a720;
+  }
+  .left {
+    height: 50px;
+    width:50px;
+    z-index:99999;
+    opacity: 1;
+    background-image: none !important;
+    top:200px;
+    left: -15px;
+    span{
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0 0,#fff;
+    }
+  }
+  .right{
+    height: 50px;
+    width:50px;
+    z-index:99999;
+    opacity: 1;
+    background-image: none !important;
+    top:200px;
+    right: -15px;
+    span{
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background: url(../img/svg/cubi_icon_53.svg) no-repeat 0 0,#fff;
+      transform: rotate(180deg);
+    }
+  }
   #news-carousel{
     height:100%;
     .slide-place{
@@ -76,7 +121,7 @@
           font-family: "Light";
         }
         .news-description{
-          margin-top: 76px;
+          margin-top: 30px;
           .new-description{
             h3{
               font-size:20px;
@@ -143,8 +188,8 @@
     position: absolute;
     margin: 0 -15px;
     width: 100%;
-    top: -52px !important;
-    transform: skewY(-2deg);
+    top: -35px!important;
+    transform: skewY(-1deg);
   }
 }
 @media only screen and(max-width: 1199px) and (min-width: 992px){
@@ -172,7 +217,7 @@
     position: absolute;
     margin: 0 -15px;
     width: 100%;
-    top: -52px !important;
+    top: -35px!important;
     transform: skewY(-1deg);
   }
   .news-indicators{
@@ -192,7 +237,7 @@
       margin-top: 25px !important;
     }
     .news-description{
-      margin-top: 76px !important;
+      margin-top:30px !important;
       .new-description{
         h3{
           padding-top: 5px;
@@ -243,7 +288,7 @@
       margin-top: 25px !important;
     }
     .news-description{
-      margin-top: 76px !important;
+      margin-top: 30px !important;
       .new-description{
         h3{
           padding-top: 5px;
@@ -262,6 +307,12 @@
 @media only screen and(max-width: 767px){
   .home-page-news{
     background: #59718d;
+    .left{
+      top:150px;
+    }
+    .right{
+      top:150px;
+    }
     .news-text{
       h4{
         text-align: center;

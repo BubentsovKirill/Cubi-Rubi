@@ -5,7 +5,6 @@ var AccountTabs = function(){
         tab.on('click', function (event) {
           var elem = event.target;
           var tabNumber = $(elem).data('tab');
-          console.log(tabNumber);
           for(var i = 0; i < tabBlocks.length; i++){
               $(tabBlocks[i]).addClass('hidden');
               if($(tabBlocks[i]).data('tab') == tabNumber){

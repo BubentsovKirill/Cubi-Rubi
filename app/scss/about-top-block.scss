@@ -1,6 +1,6 @@
 .about-top-block{
   height:calc(100vh);
-  background: url(../img/photos/YAG_1926.jpg) no-repeat center;
+  background: url(../img/photos/about-top.gif) no-repeat center;
   background-size: cover;
   position: relative;
   &:before{
@@ -27,7 +27,6 @@
       width: 60px;
       height: 35px;
       margin:0px auto;
-      background: url(../img/about-header.png) no-repeat center;
     }
   }
 }
@@ -91,9 +90,10 @@
         right:0;
         margin: 0px auto;
         top: 26%;
-        width: 60px;
+        text-align: center;
+        width: 100px;
         height: 35px;
-        background: url(../img/about-header.png) no-repeat center;
+        font-size: 25px
       }
       p {
         text-align: center;

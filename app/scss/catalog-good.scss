@@ -69,6 +69,13 @@
       }
     }
     .description{
+      .link{
+        color: #6e6e6f;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
       .breadcrumps{
         font-family: "LightIt";
         .good-title{
@@ -115,7 +122,7 @@
         }
       }
       .good-description{
-        min-height: 270px;
+        margin-bottom: 40px;
         font-size:16px;
       }
     }
@@ -124,33 +131,37 @@
       .total{
         position: absolute;
         font-size:24px;
-        right: 0px !important;
-        top: -5px;
+        left: 200px !important;
       }
       .amount{
         font-family: "Regular";
         font-size: 14px;
       }
       input[type="number"]{
-        width: 45px;
+        width: 50px;
+        height:40px;
+        font-size:20px;
         padding: 0 0 0 5px;
       }
       input[type="submit"]{
-        top: 72px;
+        top: 100px;
         position: absolute;
         left: 0;
         width:160px;
         height:40px;
-        border:none;
+        border: 1px solid #e0950f;
         background: #f0a720;
         color: #ffffff;
         -webkit-border-radius:25px;
         -moz-border-radius:25px;
         border-radius:25px;
+        &:hover{
+          background: #e79707;
+        }
       }
       .balance{
         position: absolute;
-        top: 25px;
+        top: 50px;
         left: 0;
       }
       .like-goods{
@@ -159,7 +170,7 @@
         width:40px;
         display: block;
         position: absolute;
-        top: 73px;
+        top: 100px;
         left: 200px;
         border-radius: 50%;
         text-align: center;
@@ -189,7 +200,7 @@
       height: 100px !important;
       position: relative;
       border-top: 1px solid #ededed;
-      margin-top: 104px;
+      margin-top: 130px;
       a:first-child{
         color: #737474;
         top:40px;
@@ -368,6 +379,12 @@
       }
     }
     .description{
+      .link{
+        color: #6e6e6f;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
       .breadcrumps{
         font-family: "LightIt";
         .good-title{
@@ -414,7 +431,7 @@
         }
       }
       .good-description{
-        min-height: 270px;
+        margin-bottom: 40px;
         font-size:16px;
       }
     }
@@ -424,18 +441,20 @@
         position: absolute;
         font-size:24px;
         right: 150px;
-        top: -5px;
+        top: 0px;
       }
       .amount{
         font-family: "Regular";
         font-size: 14px;
       }
       input[type="number"]{
-        width: 45px;
+        width: 50px;
+        height:40px;
+        font-size:20px;
         padding: 0 0 0 5px;
       }
       input[type="submit"]{
-        top: 72px;
+        top: 90px;
         position: absolute;
         left: 0;
         width:160px;
@@ -449,7 +468,7 @@
       }
       .balance{
         position: absolute;
-        top: 25px;
+        top: 50px;
         left: 0;
       }
       .like-goods{
@@ -459,7 +478,7 @@
         display: block;
         position: absolute;
         left: 200px;
-        top: 73px;
+        top: 90px;
         border-radius: 50%;
         text-align: center;
       }
@@ -482,7 +501,7 @@
     .follow{
       position: relative;
       border-top: 1px solid #ededed;
-      margin-top: 104px;
+      margin-top: 130px;
       a:first-child{
         color: #737474;
         top:40px;
@@ -661,6 +680,12 @@
       }
     }
     .description{
+      .link{
+        color: #6e6e6f;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
       margin-top: 50px;
       .breadcrumps{
         font-family: "LightIt";
@@ -708,7 +733,7 @@
         }
       }
       .good-description{
-        min-height: 190px;
+        margin-bottom: 40px;
         font-size:16px;
       }
     }
@@ -718,14 +743,15 @@
         position: absolute;
         font-size:24px;
         right: 150px;
-        top: -5px;
+        top: 0px;
       }
       .amount{
         font-family: "Regular";
         font-size: 14px;
       }
       input[type="number"]{
-        width: 45px;
+        width: 50px;
+        height:40px;
         padding: 0 0 0 5px;
       }
       input[type="submit"]{
@@ -957,6 +983,12 @@
       }
     }
     .description{
+      .link{
+        color: #6e6e6f;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
       margin-top: 50px;
       .breadcrumps{
         font-family: "LightIt";
@@ -1004,7 +1036,7 @@
         }
       }
       .good-description{
-        min-height: 190px;
+        margin-bottom: 40px;
         font-size:16px;
       }
     }
@@ -1021,7 +1053,9 @@
         font-size: 14px;
       }
       input[type="number"]{
-        width: 45px;
+        width: 50px;
+        height:40px;
+        font-size:20px;
         padding: 0 0 0 5px;
       }
       input[type="submit"]{
@@ -1041,7 +1075,7 @@
       }
       .balance{
         position: absolute;
-        top: 25px;
+        top: 40px;
         left: 0;
       }
       .like-goods{
@@ -1050,7 +1084,7 @@
         width:40px;
         display: block;
         position: absolute;
-        right: 120px !important;
+        right: 10% !important;
         top: 73px;
         border-radius: 50%;
         text-align: center;
